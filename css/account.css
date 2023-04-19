@@ -1,0 +1,291 @@
+.account-page-wrapper {
+  padding-top: 46px;
+  padding-bottom: 238px;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper {
+    padding-top: 24px;
+    padding-bottom: 100px;
+  }
+}
+.account-page-wrapper .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1A202C;
+  margin-bottom: 19px;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+}
+.account-page-wrapper .account-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .account-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+.account-page-wrapper .user-info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .user-info-wrapper {
+    gap: 16px;
+  }
+}
+.account-page-wrapper .user-info-wrapper .btn-upload {
+  position: relative;
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  transition: 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #EDF2F7;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .user-info-wrapper .btn-upload {
+    width: 80px;
+    height: 80px;
+  }
+}
+.account-page-wrapper .user-info-wrapper .btn-upload input[type=file] {
+  cursor: pointer;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: scale(3);
+  opacity: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.account-page-wrapper .user-info-wrapper .info-detail {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.account-page-wrapper .user-info-wrapper .info-detail .username {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1A202C;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .user-info-wrapper .info-detail .username {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.account-page-wrapper .user-info-wrapper .info-detail .line {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1A202C;
+}
+.account-page-wrapper .user-info-wrapper .info-detail .text-link {
+  text-decoration: none;
+  color: #F91E4E;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.account-page-wrapper .user-info-wrapper .info-detail .text-link:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .user-info-wrapper {
+    gap: 16px;
+  }
+}
+.account-page-wrapper .btn-log-out {
+  min-width: 100px;
+  padding: 8px 24px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1A202C;
+  cursor: pointer;
+  border: 1px solid #1A202C;
+}
+.account-page-wrapper .btn-log-out:focus {
+  outline: none;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .btn-log-out {
+    margin-left: 96px;
+  }
+}
+.account-page-wrapper .transaction-wrapper {
+  margin-left: 176px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  padding: 24px;
+  min-width: 1096px;
+  max-width: auto;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper {
+    padding: 12px;
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 24px;
+  }
+}
+.account-page-wrapper .transaction-wrapper .transaction-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A202C;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper .transaction-title {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 8px;
+  }
+}
+.account-page-wrapper .transaction-wrapper .list-transaction {
+  width: 100%;
+  margin-right: 76px;
+  overflow-x: scroll;
+  max-width: 1000%;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper .list-transaction {
+    margin-right: 0;
+  }
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-heading {
+  background-color: #EDF2F7;
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-heading .column-item {
+  color: #718096 !important;
+  font-size: 14px !important;
+  line-height: 21px;
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row {
+  display: flex;
+  border-top: 1px solid #EDF2F7;
+  padding: 10px 12px;
+  padding-right: 0;
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row:last-of-type {
+  border-bottom: 1px solid #EDF2F7;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper .list-transaction .table-row {
+    padding: 6px 8px;
+  }
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item {
+  width: 16.6666666667%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A202C;
+  min-width: max-content;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(2), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(3) {
+  width: 15%;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(2), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(3) {
+    min-width: 120px;
+  }
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(1), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(4), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(5), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(6) {
+  width: 20%;
+  justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(1), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(4), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(5), .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(6) {
+    min-width: 240px;
+  }
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(6) {
+  text-align: right !important;
+  justify-content: flex-end;
+  width: 10% !important;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(6) {
+    min-width: 120px;
+  }
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row .column-item:nth-of-type(1) {
+  justify-content: flex-start !important;
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row .btn-view-transaction {
+  min-width: 58px;
+  height: auto;
+  padding: 6px 12px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #F91E4E;
+  color: white;
+  border-radius: 4px;
+  font-family: "Poppins";
+}
+.account-page-wrapper .transaction-wrapper .list-transaction .table-row .btn-view-transaction:focus {
+  outline: none;
+}
+@media only screen and (max-width: 991px) {
+  .account-page-wrapper {
+    padding-top: 23px;
+  }
+}
+
+/*# sourceMappingURL=account.css.map */

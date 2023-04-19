@@ -1,0 +1,54 @@
+/* -----------------------------------------------------------
+	common
+----------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #F5F5F5;
+  color: #1A202C;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+button {
+  transition: all 0.4s ease;
+}
+
+.over {
+  transition: all 0.4s ease;
+}
+.over:hover {
+  opacity: 0.7;
+}
+
+.list-style-none {
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=reset.css.map */

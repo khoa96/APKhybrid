@@ -1,0 +1,186 @@
+.news-page-wrapper {
+  width: 100%;
+  min-height: 418px;
+  background-image: url("../images/background-content.png"), linear-gradient(#F91E4E 28%, #F5F5F5 0%);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 585px 418px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper {
+    background-size: 280px 240px !important;
+  }
+}
+.news-page-wrapper .news-header {
+  width: calc(100% - 585px);
+  height: 117.04px;
+  background-color: #F91E4E;
+  position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-header {
+    width: calc(100% - 280px);
+    height: 67.2px;
+  }
+}
+.news-page-wrapper .news-header .title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+  position: absolute;
+  top: 30px;
+  left: 162px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-header .title {
+    font-size: 24px;
+    line-height: 36px;
+    top: 18px;
+    left: 16px;
+  }
+}
+.news-page-wrapper .news-detail-wrapper {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper {
+    margin-top: 24px;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .left-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .left-content {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .right-content {
+  min-width: 300px;
+  max-width: 300px;
+  height: auto;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .right-content {
+    display: none;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .news-detail {
+  max-width: 864px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .news-detail {
+    max-width: 100%;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .news-detail .news-detail-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .news-detail .news-detail-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .news-detail .news-detail-time {
+  display: inline-block;
+  margin: 24px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(74, 85, 104, 0.6);
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .news-detail .news-detail-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 12px 0px;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .news-detail .news-line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .news-detail .news-line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .news-detail .news-detail-image {
+  min-width: 800px;
+  max-width: 800px;
+  max-height: 465px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .news-detail .news-detail-image {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 232px;
+    margin-bottom: 20px;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .dash {
+  margin-top: 48px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .news-detail-wrapper .dash {
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+}
+.news-page-wrapper .news-detail-wrapper .dash img {
+  display: block;
+  width: 195px;
+  height: 23px;
+}
+.news-page-wrapper .other-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .other-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.news-page-wrapper .btn-load-more-mb {
+  display: none;
+  font-family: "Poppins";
+}
+@media only screen and (max-width: 991px) {
+  .news-page-wrapper .btn-load-more-mb {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=news.css.map */

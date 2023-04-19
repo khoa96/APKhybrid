@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/_reset.scss","../scss/_variables.scss"],"names":[],"mappings":"AAIA;AAAA;AAAA;AAGA;EACC;EACA;EACA;;;AAED;EACC,aCVW;EDWX,kBCC0B;EDA1B,OCIiB;;;ADFlB;EACC;;;AAED;AAAA;EAEC;;;AAED;EACC;;AACA;EACC;;;AAGF;EACC;;;AAGD;EACC;;AAEA;EACC;;;AAIF;EACC;EACA;EACA;;;AAED;EACC;EACA","file":"reset.css"}

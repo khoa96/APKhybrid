@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+
+.header {
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 8px 0px;
+  background-color: $primary-color;
+  position: relative;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  @include mq(max_md) {
+    padding-bottom: 8px;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    gap: 21px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @include mq(max_md) {
+      gap: 12px;
+    }
+
+    .logo-icon {
+      min-width: 65px;
+      max-width: 65px;
+      height: 72px;
+      object-fit: cover;
+
+      @include mq(max_md) {
+        min-width: 38px;
+        max-width: 38px;
+        height: 42px;
+      }
+
+    }
+
+    .logo-title {
+      min-width: 107px;
+      max-width: 107px;
+      height: 34px;
+      object-fit: contain;
+      margin-top: 4px;
+    }
+  }
+
+  .menu-header {
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    left: 300px;
+    top: 7px;
+    list-style: none;
+    align-items: center;
+
+    li {
+      a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        display: block;
+        padding-bottom: 11px;
+        border-bottom: 4px solid transparent;;
+        color: #1A202C;
+
+        &:hover {
+          border-bottom-color: #F91E4E;
+          color: #F91E4E;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .active {
+      a {
+        border-bottom-color: #F91E4E;
+        color: #F91E4E;
+      }
+    }
+
+    @include mq(max_md) {
+      display: none;
+    }
+  }
+
+  .header-right {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+
+    .header-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: $content-primary;
+
+
+      @include mq(max_md) {
+        display: none;
+      }
+    }
+    .list-control {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .btn {
+      min-width: 58px;
+      padding: 5px 8px;
+      border: none;
+      outline: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      border-radius: 4px;
+      display: inline-block;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .btn-signin {
+      background-color: $secondary-color;
+      color: $content-white;
+      border: none;
+    }
+
+    .btn-signup {
+      background-color: transparent;
+      color: $content-primary;
+      border: 1px solid $content-primary;
+    }
+  }
+}
