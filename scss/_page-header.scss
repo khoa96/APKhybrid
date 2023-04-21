@@ -3,156 +3,364 @@
 @import "mixins";
 @import "fonts";
 
-
 .header {
-  width: 100%;
-  border: none;
-  height: auto;
-  padding: 8px 0px;
-  background-color: $primary-color;
-  position: relative;
-}
-
-.header-content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-
+  padding: 12px 24px;
+  background-color: #fff;
   @include mq(max_md) {
-    padding-bottom: 8px;
+    padding: 8px 12px;
   }
 
-  .logo-wrapper {
+  .header-content {
+    width: 100%;
+    height: auto;
+    position: relative;
     display: flex;
-    gap: 21px;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    @include mq(max_md) {
-      gap: 12px;
-    }
-
-    .logo-icon {
-      min-width: 65px;
-      max-width: 65px;
-      height: 72px;
-      object-fit: cover;
-
-      @include mq(max_md) {
-        min-width: 38px;
-        max-width: 38px;
-        height: 42px;
-      }
-
-    }
-
-    .logo-title {
-      min-width: 107px;
-      max-width: 107px;
-      height: 34px;
-      object-fit: contain;
-      margin-top: 4px;
-    }
-  }
-
-  .menu-header {
-    display: flex;
-    gap: 24px;
-    position: absolute;
-    left: 300px;
-    top: 7px;
-    list-style: none;
     align-items: center;
+    justify-content: space-between;
+  }
 
-    li {
-      a {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        display: block;
-        padding-bottom: 11px;
-        border-bottom: 4px solid transparent;;
-        color: #1A202C;
+  .logo-header {
+    min-width: 144px;
+    max-width: 144px;
+    height: 40px;
+    object-fit: cover;
+  }
 
-        &:hover {
-          border-bottom-color: #F91E4E;
-          color: #F91E4E;
-          text-decoration: none;
-        }
-      }
-    }
+  .header-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
 
-    .active {
-      a {
-        border-bottom-color: #F91E4E;
-        color: #F91E4E;
-      }
-    }
+    color: #111111;
+    text-align: center;
 
     @include mq(max_md) {
       display: none;
     }
   }
-
-  .header-right {
+  .header-control {
     display: flex;
-    gap: 16px;
+    align-items: center;
+  }
+
+  .top-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    @include mq(max_md) {
+      display: none;
+    }
+
+    li {
+      margin-right: 30px;
+      min-width: max-content;
+
+      a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height */
+
+        color: #111111;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .list-btn {
+    display: flex;
     align-items: center;
 
-
-    .header-description {
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 21px;
-      color: $content-primary;
-
-
-      @include mq(max_md) {
-        display: none;
-      }
-    }
-    .list-control {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-    }
-
     .btn {
-      min-width: 58px;
-      padding: 5px 8px;
+      padding: 7px 8px;
       border: none;
-      outline: none;
+      min-width: max-content;
+
+      border-radius: 4px;
+      cursor: pointer;
       font-style: normal;
       font-weight: 500;
-      font-size: 14px;
-      line-height: 21px;
-      border-radius: 4px;
-      display: inline-block;
-      cursor: pointer;
-      &:focus {
-        outline: none;
-      }
+      font-size: 15px;
+      line-height: 22px;
 
-      &:hover {
-        text-decoration: none;
+      margin-right: 12px;
+
+      &:last-of-type {
+        margin-right: 0;
       }
     }
 
     .btn-signin {
-      background-color: $secondary-color;
-      color: $content-white;
-      border: none;
+      background: #034f76;
+      border-radius: 4px;
+      border: 1px solid #034f76;
+      color: #fff;
     }
 
     .btn-signup {
-      background-color: transparent;
-      color: $content-primary;
-      border: 1px solid $content-primary;
+      background: #ffffff;
+      border: 1px solid #034f76;
+      color: #034f76;
     }
   }
 }
+
+// ==========STYLE FOOTER ====
+.footer {
+  width: 100%;
+  background: #111;
+  padding: 24px 0px;
+
+  .footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .logo-footer {
+      min-width: 144px;
+      max-width: 144px;
+      height: 40px;
+      object-fit: cover;
+    }
+
+    .footer-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+
+      color: #ffffff;
+      margin: 24px 0px;
+      max-width: 755px;
+      text-align: center;
+
+      @include mq(max_md) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+
+        margin: 24px 0px 16px;
+        max-width: 100%;
+      }
+    }
+
+    .email {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #ffffff;
+
+      @include mq(max_md) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #ffffff;
+      }
+    }
+
+    .menu-footer {
+      list-style: none;
+      margin: 24px 0px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      li {
+        min-width: max-content;
+        margin-right: 16px;
+
+        @include mq(max_md) {
+          margin-bottom: 12px;
+        }
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+
+          text-align: center;
+
+          /* 2sport/color1 */
+
+          color: #f1516e;
+          text-decoration: none;
+
+          @include mq(max_md) {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 40px;
+            /* or 308% */
+
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .copy-right {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: rgba(255, 255, 255, 0.7);
+
+      @include mq(max_md) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height */
+
+        text-align: center;
+      }
+    }
+  }
+}
+// ==========STYLE FOOTER ====
+
+// =======STYLE SUB FOOTER ====
+.sub-footer-wrapper {
+  background-color: #fff;
+  padding: 32px;
+
+  @include mq(max_md) {
+    padding: 16px;
+  }
+
+  .sub-footer-content {
+    width: 100%;
+    max-height: 550px;
+    overflow-y: auto;
+    padding-right: 8px;
+
+    /* width */
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 4px;
+    }
+  }
+
+  .block-item {
+    width: 100%;
+    margin-bottom: 32px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include mq(max_md) {
+      margin-bottom: 24px;
+    }
+
+    .block-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+      color: #111111;
+      margin-bottom: 12px;
+    }
+
+    .block-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #111111;
+    }
+  }
+}
+// =======STYLE SUB FOOTER ====
+
+// =========MAIN MENU ============
+.main-menu-wrapper {
+  width: 100%;
+  background-color: #034f76;
+
+  .main-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    @include mq(max_md) {
+      max-width: 100vw;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+  }
+
+  .main-menu-item {
+    min-width: max-content;
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      padding: 13px 12px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 26px;
+      /* identical to box height */
+
+      color: #ffffff;
+
+      @include mq(max_md) {
+        padding: 12px;
+      }
+
+      &:hover {
+        background: #F1516E;
+      }
+    }
+  }
+
+  .active {
+    a {
+      background: #F1516E;
+    }
+  }
+}
+// =========MAIN MENU ============
