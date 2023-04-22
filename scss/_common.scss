@@ -97,6 +97,10 @@ p {
   justify-content: center;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -115,3 +119,12 @@ p {
     padding-left: 8px !important;
   }
 }
+
+.text-overflow {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  

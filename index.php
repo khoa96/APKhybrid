@@ -63,61 +63,25 @@
                 <div id="tabs-1" class="main-tab-content">
                     <!-- START FOOTBALL TAB  -->
                     <div class="common-main-layout">
-                        <div class="common-left-layout">
-                            <div class="box-common box-list-league">
-                                <div class="league-item">
-                                    <img src="./images/play-icon.png" alt="" class="league-image">
-                                    <span class="league-name">Live</span>
-                                    <img src="./images/fire-icon.png" alt="" class="fire-icon">
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-1.png" alt="" class="league-image">
-                                    <span class="league-name">Result</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-2.png" alt="" class="league-image">
-                                    <span class="league-name">Premier League</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-3.png" alt="" class="league-image">
-                                    <span class="league-name">Bundesliga</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-4.png" alt="" class="league-image">
-                                    <span class="league-name">Ligue 1</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-5.png" alt="" class="league-image">
-                                    <span class="league-name">La Liga</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-6.png" alt="" class="league-image">
-                                    <span class="league-name">Serie A</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-7.png" alt="" class="league-image">
-                                    <span class="league-name">V-League</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-8.png" alt="" class="league-image">
-                                    <span class="league-name">Champions League</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-9.png" alt="" class="league-image">
-                                    <span class="league-name">Europa League</span>
-                                </div>
-                                <div class="league-item">
-                                    <img src="./images/league-10.png" alt="" class="league-image">
-                                    <span class="league-name">World Cup</span>
-                                </div>
-                            </div>
+                        <?php include "templates/LeftSidebar.php"; ?>
+                        <div class="common-right-layout">
+                            <!-- START LIVE TABLE  -->
+                            <?php include "templates/liveTable.php"; ?>
+                            <!-- END LIVE TABLE  -->
+
+                            <!-- START HOT MATCH TABLE  -->
+                            <?php include "templates/hotMatch.php"; ?>
+                            <!-- END HOT MATCH TABLE  -->
+
+                            <!-- START ALL MATCH TABLE  -->
+                            <?php include "templates/allMatch.php"; ?>
+                            <!-- END ALL MATCH TABLE -->
                         </div>
-                        <div class="common-right-layout">right layout</div>
                     </div>
                     <!-- END FOOTBALL TAB  -->
                 </div>
                 <div id="tabs-2" class="main-tab-content">
-                    <p>tab2</p>
+                    tab2
                 </div>
                 <div id="tabs-3" class="main-tab-content">
                     tab3
@@ -145,6 +109,7 @@
     <script>
     $(function() {
         $("#tabs").tabs();
+        $("#all-tabs").tabs();
     });
     </script>
 </body>
