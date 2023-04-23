@@ -81,7 +81,18 @@
                     <!-- END FOOTBALL TAB  -->
                 </div>
                 <div id="tabs-2" class="main-tab-content">
-                    tab2
+                    <div class="common-main-layout">
+                        <?php include "templates/LeftSidebar.php"; ?>
+                        <div class="common-right-layout">
+                            <!-- START LIVE TABLE  -->
+                            <?php include "templates/otherLiveTable.php"; ?>
+                            <!-- END LIVE TABLE  -->
+
+                            <!-- START LIST UPCOMING MATCH OF OTHER SPORT -->
+                            <?php include "templates/otherUpcommingTable.php"; ?>
+                            <!-- START LIST UPCOMING MATCH OF OTHER SPORT -->
+                        </div>
+                    </div>
                 </div>
                 <div id="tabs-3" class="main-tab-content">
                     tab3
@@ -110,6 +121,7 @@
     $(function() {
         $("#tabs").tabs();
         $("#all-tabs").tabs();
+        $("#other-sport-tabs").tabs()
     });
     </script>
 </body>

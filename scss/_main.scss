@@ -1078,6 +1078,10 @@
             text-decoration: none;
             font-weight: 400;
             line-height: 26px;
+
+            &:hover {
+                color: #034f76;
+            }
           }
         }
       }

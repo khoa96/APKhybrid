@@ -1009,5 +1009,8 @@
   font-weight: 400;
   line-height: 26px;
 }
+.all-league-page-wrapper .box-all-league-wrapper .list-country-groups .list-countries li a:hover {
+  color: #034f76;
+}
 
 /*# sourceMappingURL=main.css.map */

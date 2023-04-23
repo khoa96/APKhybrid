@@ -26,29 +26,13 @@
                 </div>
 
             </div>
-
-
             <div class="right-row">
                 <div class="list-club-wrapper">
-                    <div class="club-item first-club">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Manchester United
-                            </div>
-                        </div>
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                    </div>
-                    <div class="score-wrapper"> 1 - 2</div>
-                    <div class="club-item last-club">
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Manchester United
-                            </div>
-                        </div>
-                    </div>
+                    <p class="text-overflow">
+                        <strong>LIVE Horse Racing - International </strong>
+                    </p>
                 </div>
-                <button class="btn-watch">Watch</button>
+                <button class=" btn-watch">Watch</button>
             </div>
         </div>
         <div class="common-table-row">
@@ -68,29 +52,13 @@
                 </div>
 
             </div>
-
-
             <div class="right-row">
                 <div class="list-club-wrapper">
-                    <div class="club-item first-club">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Manchester United
-                            </div>
-                        </div>
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                    </div>
-                    <div class="score-wrapper"> 1 - 2</div>
-                    <div class="club-item last-club">
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Manchester United
-                            </div>
-                        </div>
-                    </div>
+                    <p class="text-overflow">
+                        <strong>Los Angeles Dodgers vs St. Louis Cardinals</strong>
+                    </p>
                 </div>
-                <button class="btn-watch">Watch</button>
+                <button class=" btn-watch">Watch</button>
             </div>
         </div>
         <div class="common-table-row">
@@ -110,29 +78,13 @@
                 </div>
 
             </div>
-
-
             <div class="right-row">
                 <div class="list-club-wrapper">
-                    <div class="club-item first-club">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Manchester United
-                            </div>
-                        </div>
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                    </div>
-                    <div class="score-wrapper"> 1 - 2</div>
-                    <div class="club-item last-club">
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Manchester United
-                            </div>
-                        </div>
-                    </div>
+                    <p class="text-overflow">
+                        <strong>Los Angeles Dodgers vs St. Louis Cardinals</strong>
+                    </p>
                 </div>
-                <button class="btn-watch">Watch</button>
+                <button class=" btn-watch">Watch</button>
             </div>
         </div>
         <div class="common-table-row">
@@ -147,40 +99,20 @@
 
                 <div class="league-name-wrapper">
                     <div class="league-name text-overflow">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, optio repellendus quisquam minus
-                        libero totam, provident qui adipisci quasi pariatur vel natus recusandae minima blanditiis
-                        architecto aspernatur suscipit, voluptatum reprehenderit!
+                        Premier League
                     </div>
                 </div>
 
             </div>
-
-
             <div class="right-row">
                 <div class="list-club-wrapper">
-                    <div class="club-item first-club">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro explicabo facere
-                                dignis numquam nesciunt dolore iste sapiente, adipisci maxime ea commodi
-                                consequatur? Corporis illum eligendi asperiores eaque atque maiores unde?
-                            </div>
-                        </div>
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                    </div>
-                    <div class="score-wrapper"> 1 - 2</div>
-                    <div class="club-item last-club">
-                        <img src="./images/league-1.png" alt="" class="club-image">
-                        <div class="club-name-wrapper">
-                            <div class="club-name text-overflow">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, eos tenetur! Dolore
-                                tenetur excepturi aspernatur blanditiis impedit quisquam fugit illo ab, nisi doloribus.
-                                Maiores, nulla architecto repellat placeat animi eos.
-                            </div>
-                        </div>
-                    </div>
+                    <p class="text-overflow">
+                        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, iure quo perferendis
+                            magnam dolores vel ipsum laudantium illo atque repellat non odio dolorum impedit enim
+                            numquam totam sed? Aut, eligendi.</strong>
+                    </p>
                 </div>
-                <button class="btn-watch">Watch</button>
+                <button class=" btn-watch">Watch</button>
             </div>
         </div>
     </div>

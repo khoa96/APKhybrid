@@ -2,17 +2,17 @@
     <div class="container-fluid">
         <ul class="main-menu">
             <li class="main-menu-item active">
-                <a href="#" target="">
+                <a href="leagues.html" target="">
                     Competitions
                 </a>
             </li>
             <li class="main-menu-item">
-                <a href="#" target="">
+                <a href="teams.html" target="">
                     Teams
                 </a>
             </li>
             <li class="main-menu-item">
-                <a href="#" target="">
+                <a href="price.html" target="">
                     Pricing
                 </a>
             </li>
