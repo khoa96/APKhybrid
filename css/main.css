@@ -979,6 +979,13 @@
   padding: 0;
   list-style: none;
 }
+@media only screen and (max-width: 991px) {
+  .all-league-page-wrapper .box-all-league-wrapper .list-country-groups {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 .all-league-page-wrapper .box-all-league-wrapper .list-country-groups .country-group {
   margin-bottom: 24px;
   -moz-column-break-inside: avoid;

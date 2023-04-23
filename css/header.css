@@ -198,6 +198,11 @@
   align-items: center;
   flex-wrap: wrap;
 }
+@media only screen and (max-width: 991px) {
+  .footer .footer-content .menu-footer {
+    justify-content: center;
+  }
+}
 .footer .footer-content .menu-footer li {
   min-width: max-content;
   margin-right: 16px;

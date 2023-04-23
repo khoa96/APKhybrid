@@ -1047,6 +1047,12 @@
       padding: 0;
       list-style: none;
 
+      @include mq(max_md) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
       .country-group {
         margin-bottom: 24px;
         -moz-column-break-inside: avoid;

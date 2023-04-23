@@ -184,6 +184,10 @@
       align-items: center;
       flex-wrap: wrap;
 
+      @include mq(max_md) {
+        justify-content: center;
+      }
+
       li {
         min-width: max-content;
         margin-right: 16px;
