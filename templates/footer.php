@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="container">
+    <div class="container-fluid">
         <div class="footer-content">
             <a href="#" target="" class="logo-footer">
                 <img src="./images/logo-footer.png" alt="logo-footer.png" alt="" />

@@ -136,14 +136,14 @@ p {
   width: 100%;
 }
 
-.container {
+.container-fluid {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 @media only screen and (max-width: 991px) {
-  .container {
+  .container-fluid {
     min-width: 100%;
     max-width: 100%;
     padding-right: 8px !important;
@@ -151,6 +151,39 @@ p {
   }
 }
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px !important;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px !important;
+  }
+}
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1900px !important;
+  }
+}
 .text-overflow {
   display: -webkit-box;
   -webkit-box-orient: vertical;

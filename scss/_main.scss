@@ -127,7 +127,6 @@
 
 .common-main-layout {
   width: 100%;
-  border: 1px solid;
   display: flex;
 }
 
@@ -563,12 +562,525 @@
   @include mq(max_md) {
     margin-top: 16px;
   }
+}
 
-  .match-table-item {
-    margin-bottom: 24px;
+.match-table-item {
+  margin-bottom: 24px;
+
+  @include mq(max_md) {
+    margin-bottom: 16px;
+  }
+}
+
+// =========STYLE TEAM PAGE
+
+.team-page-wrapper {
+  .team-page-content {
+    padding: 32px 0px;
+    @include mq(max_md) {
+      padding: 24px 0px;
+    }
+  }
+
+  .club-info-wrapper {
+    width: 100%;
+    display: flex;
 
     @include mq(max_md) {
-        margin-bottom: 16px;
+      align-items: center;
+    }
+
+    .club-image {
+      min-width: 70px;
+      max-width: 70px;
+      height: 70px;
+      object-fit: cover;
+      margin-right: 16px;
+
+      @include mq(max_md) {
+        min-width: 56px;
+        max-width: 56px;
+        height: 56px;
+        object-fit: cover;
+      }
+    }
+
+    .club-detail {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+
+      .club-name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+
+        /* Gray:900 */
+
+        color: #1a202c;
+
+        @include mq(max_md) {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+
+      .club-description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        /* Gray:900 */
+
+        color: #1a202c;
+        max-width: 1110px;
+
+        @include mq(max_md) {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 20px;
+
+          /* Gray:900 */
+
+          color: #1a202c;
+        }
+      }
+    }
+  }
+
+  .club-description-pc {
+    display: block;
+
+    @include mq(max_md) {
+      display: none;
+    }
+  }
+
+  .club-description-mb {
+    display: none;
+
+    @include mq(max_md) {
+      display: block;
+      margin-top: 16px;
+    }
+  }
+
+  .list-match-table {
+    width: 100%;
+    margin-top: 50px;
+
+    @include mq(max_md) {
+      margin-top: 40px;
+    }
+  }
+}
+
+.standing-table-wrapper {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 100%;
+  padding: 24px;
+
+  @include mq(max_md) {
+    padding: 16px;
+  }
+
+  .standing-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #111111;
+    margin-bottom: 12px;
+
+    @include mq(max_md) {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 28px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .league-stadinng-table {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+
+    .row-item {
+      padding: 10px 24px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #1a202c;
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+
+      .team-info {
+        min-width: 230px;
+        max-width: 230px;
+        display: flex;
+        align-items: center;
+
+        .team-id {
+          display: flex;
+          justify-content: center;
+          margin-right: 32px;
+
+          .number {
+            width: 24px;
+            height: 24px;
+            border: none;
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #1a202c;
+          }
+
+          .yellow-number {
+            background-color: $primary-color;
+          }
+
+          .red-number {
+            background-color: $secondary-color;
+            color: $content-white;
+          }
+
+          .blue-number {
+            background-color: #034f76;
+            color: #fff;
+          }
+          .orange-number {
+            background-color: #ed8936;
+            color: #fff;
+          }
+
+          .pink-number {
+            background-color: #f1516e;
+            color: #fff;
+          }
+        }
+
+        .team-name {
+          flex-grow: 1;
+        }
+      }
+
+      .team-result {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        flex-grow: 1;
+
+        .result-detail {
+          flex-grow: 1;
+          display: flex;
+
+          .detail-item {
+            min-width: 50px;
+            width: calc(100% / 8);
+            height: auto;
+            text-transform: capitalize;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+          }
+        }
+
+        .list-player {
+          display: flex;
+          gap: 2px;
+          min-width: 150px;
+          max-width: 150px;
+
+          .player-item {
+            width: 24px;
+            height: 24px;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+          }
+
+          .green {
+            background-color: #18b745;
+          }
+
+          .grey {
+            background-color: #888888;
+          }
+
+          .orange {
+            background-color: #f1516e;
+          }
+        }
+      }
+    }
+
+    .table-heading {
+      background-color: #4a5568;
+      color: #fff;
+      min-width: max-content;
+    }
+
+    .table-row {
+      min-width: max-content;
+
+      &:nth-child(odd) {
+        background-color: #edf2f7;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: #edf2f7;
+      }
+    }
+  }
+}
+// =========STYLE TEAM PAGE
+
+// ==========STYLE ALL LEAGUE PAGE =====
+.all-league-page-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 24px 0px;
+
+  @include mq(max_md) {
+    padding: 16px 0px;
+  }
+
+  .label-filter {
+    padding: 8px 12px;
+    background: #034f76;
+    border-radius: 8px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+  }
+  .league-title {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .list-league {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    .league-item {
+      border: 1px solid #034f76;
+      border-radius: 16px;
+      padding: 6px 12px;
+      margin-right: 12px;
+      margin-bottom: 12px;
+
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        text-align: center;
+        color: #111111;
+        text-decoration: none;
+
+        &:hover {
+            color: #034f76;
+        }
+      }
+    }
+  }
+
+  .box-search-league-wrapper {
+    margin: 48px 0px;
+
+    display: flex;
+    justify-content: center;
+
+    @include mq(max_md) {
+      margin: 36px 0px;
+    }
+    .search-wrapper-common {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      position: relative;
+      border: 1px solid #dfe1e5;
+      border-radius: 100px;
+      height: 44px;
+      background-color: #fff;
+      width: 475px;
+      max-width: 475px;
+      border-radius: 100px;
+      padding: 5px 8px 5px 14px;
+
+      @include mq(max_md) {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .icon {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 6px;
+      }
+
+      input {
+        flex-grow: 1;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        cursor: pointer;
+        position: relative;
+        top: 1px;
+        /* identical to box height */
+
+        /* #FFFFFF */
+
+        color: #111;
+        background-color: transparent;
+
+        &:focus {
+          outline: none;
+        }
+
+        &::placeholder {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #718096;
+        }
+      }
+    }
+  }
+
+  .box-all-league-wrapper {
+    .header-control {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      align-items: center;
+    }
+
+    .btn-toggle-collapse {
+      display: flex;
+      align-items: center;
+      background-color: transparent;
+      border: none;
+      font-size: 14px;
+      color: rgb(33, 37, 41);
+      line-height: 21px;
+      font-weight: 400;
+      font-family: "Poppins";
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      &:focus {
+        outline: none;
+      }
+
+      .icon-collapse {
+        display: flex;
+        width: 16px;
+        min-width: 16px;
+        height: 16px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6px;
+        svg {
+          transform: rotate(-90deg);
+        }
+      }
+
+      &.collapse {
+        .icon-collapse {
+            svg {
+                transform: rotate(90deg);
+              }
+        }
+      }
+    }
+
+    .list-country-groups {
+      margin-top: 12px;
+      -moz-column-count: 4;
+      column-count: 4;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      .country-group {
+        margin-bottom: 24px;
+        -moz-column-break-inside: avoid;
+        break-inside: avoid-column;
+      }
+
+      .country-group-title {
+        display: flex;
+        align-items: center;
+
+        .flag-country {
+          min-width: 16px;
+          max-width: 16px;
+          object-fit: cover;
+          margin-right: 4px;
+        }
+      }
+
+      .list-countries {
+        margin-top: 6px;
+        margin-bottom: 0;
+
+        li {
+          font-size: 16px;
+          line-height: 26px;
+          a {
+            font-size: 16px;
+            color: #111;
+            text-decoration: none;
+            font-weight: 400;
+            line-height: 26px;
+          }
+        }
+      }
     }
   }
 }

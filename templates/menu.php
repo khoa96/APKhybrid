@@ -1,5 +1,5 @@
 <div class="main-menu-wrapper">
-    <div class="container">
+    <div class="container-fluid">
         <ul class="main-menu">
             <li class="main-menu-item active">
                 <a href="#" target="">
