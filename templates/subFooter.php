@@ -1,5 +1,5 @@
 <div class="sub-footer-wrapper">
-    <div class="container-fluid">
+    <div class="container">
         <div class="sub-footer-content">
             <div class="block-item">
                 <h3 class="block-title">

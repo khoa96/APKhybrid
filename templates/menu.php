@@ -26,6 +26,12 @@
                     News
                 </a>
             </li>
+             <li class="main-menu-item">
+                <a href="#" target="">
+                    Highlight
+                </a>
+            </li>
+            
         </ul>
     </div>
 </div>

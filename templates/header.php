@@ -12,9 +12,6 @@
                     <li>
                         <a href=" #">2sport TV</a>
                     </li>
-                    <li>
-                        <a href="#">Highlight</a>
-                    </li>
                 </ul>
 
                 <div class="list-btn">
