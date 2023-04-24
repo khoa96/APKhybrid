@@ -5,7 +5,7 @@
                 <div></div>
             </div>
         </div>
-        <span class="common-title danger-title">live</span>
+        <h2 class="common-title danger-title">live</h2>
     </div>
 
     <div class="common-table-league">

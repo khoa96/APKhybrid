@@ -6,7 +6,28 @@
     <div class="home-page-wrapper">
         <div class="container-fluid">
             <div class="home-page-content">
-                <h2 class="title">Live Football Streaming HD - Watch Sport TV Today</h2>
+                <div class="common-list-category">
+                                <div class="category-item">
+                                    <h1>Champions League</h1>
+                                </div>
+                            <div class="arrow">
+                                <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_3181)">
+                                        <path d="M4.5 3.5L7.5 6.5L4.5 9.5" stroke="#4A5568" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_103_3181">
+                                            <rect width="12" height="12" fill="white" transform="translate(0 0.5)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                                <div class="category-item">
+                                    <h1>Barcelona - Man United</h1>
+                                </div>
+                        </div>
             </div>
 
             <div id="tabs">
@@ -67,7 +88,7 @@
                                 <div class="club-info-wrapper">
                                     <img src="./images/league-4.png" class="club-image" />
                                     <div class="club-detail">
-                                        <h3 class="club-name">Manchester City</h3>
+                                        <h1 class="club-name">Manchester City</h1>
                                         <p class="club-description  club-description-pc">Premier League
                                             fixtures on TV
                                             are
@@ -85,8 +106,9 @@
                                     matches and Amazon Prime show 20 live games.</p>
 
                                 <div class="list-match-table">
+                                    <h2 class="feature-title">Features</h2>
                                     <div class="match-table-item">
-                                        <h4 class="table-title">Apr 16 (Today)</h4>
+                                        <h3 class="table-title">Apr 16 (Today)</h3>
                                         <div class="common-table-league">
                                             <div class="common-table-row">
                                                 <div class="left-row">
@@ -261,7 +283,7 @@
                                         </div>
                                     </div>
                                     <div class="match-table-item">
-                                        <h4 class="table-title">Apr 17</h4>
+                                        <h3 class="table-title">Apr 17</h3>
                                         <div class="common-table-league">
                                             <div class="common-table-row">
                                                 <div class="left-row">
@@ -436,7 +458,7 @@
                                         </div>
                                     </div>
                                     <div class="match-table-item">
-                                        <h4 class="table-title">Apr 18</h4>
+                                        <h3 class="table-title">Apr 18</h3>
                                         <div class="common-table-league">
                                             <div class="common-table-row">
                                                 <div class="left-row">
@@ -613,7 +635,7 @@
                                 </div>
 
                                 <div class="standing-table-wrapper">
-                                    <h3 class="standing-title">Standings</h3>
+                                    <h2 class="standing-title">Standings</h2>
                                     <div class="league-stadinng-table">
                                         <div class="row-item table-heading">
                                             <div class="team-info">

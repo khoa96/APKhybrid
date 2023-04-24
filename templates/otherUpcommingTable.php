@@ -5,12 +5,12 @@
             <ul class="main-tab">
                 <li class="main-tab-item all-tab-item">
                     <a href="#other-sport-tab-1">
-                        <span class="label">Upcoming Schedule</span>
+                        <h3 class="label">Upcoming Schedule</h3>
                     </a>
                 </li>
                 <li class="main-tab-item all-tab-item">
                     <a href="#other-sport-tab-2">
-                        <span class="label">Fixture</span>
+                        <h3 class="label">Fixture</h3>
                     </a>
                 </li>
             </ul>

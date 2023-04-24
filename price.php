@@ -7,9 +7,9 @@
         <div class="container">
             <div class="page-price-header-wrapper">
                 <ul class="common-list-category">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
+                    <div class="category-item">
+                        <h1>Champions League</h1>
+                    </div>
                     <span class="arrow">
                         <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_739_17053)">
@@ -23,9 +23,9 @@
                             </defs>
                         </svg>
                     </span>
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
+                   <div class="category-item">
+                        <h1>Champions League</h1>
+                    </div>
                 </ul>
                 <h3 class="price-title">
                     Pricing -

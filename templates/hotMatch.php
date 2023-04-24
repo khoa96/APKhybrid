@@ -3,7 +3,7 @@
         <div class="icon-wrapper">
             <img src="./images/icon-hot-match.png" alt="" />
         </div>
-        <span class="common-title danger-title">HOT Matches</span>
+        <h2 class="common-title danger-title">HOT Matches</h2>
     </div>
 
     <div class="common-table-league">

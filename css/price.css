@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
 }
-.common-list-category a {
+.common-list-category h1 {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -11,11 +11,11 @@
   color: #4a5568;
   margin-right: 6px;
 }
-.common-list-category a:hover {
+.common-list-category h1:hover {
   text-decoration: none;
 }
 @media only screen and (max-width: 991px) {
-  .common-list-category a {
+  .common-list-category h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 11px;

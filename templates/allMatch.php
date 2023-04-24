@@ -3,7 +3,7 @@
         <div class="icon-wrapper">
             <img src="./images/icon-all-match.png" alt="" />
         </div>
-        <span class="common-title danger-title">ALL Matches</span>
+        <h2 class="common-title danger-title">ALL Matches</h2>
         <div class="dash"></div>
     </div>
 
@@ -12,12 +12,12 @@
             <ul class="main-tab">
                 <li class="main-tab-item all-tab-item">
                     <a href="#all-tabs-1">
-                        <span class="label">Upcoming Schedule</span>
+                        <h3 class="label">Upcoming Schedule</h3>
                     </a>
                 </li>
                 <li class="main-tab-item all-tab-item">
                     <a href="#all-tabs-2">
-                        <span class="label">Fixture</span>
+                        <h3 class="label">Fixture</h3>
                     </a>
                 </li>
             </ul>

@@ -6,7 +6,7 @@
     <div class="home-page-wrapper">
         <div class="container-fluid">
             <div class="home-page-content">
-                <h2 class="title">Live Football Streaming HD - Watch Sport TV Today</h2>
+                <h1 class="title">Live Football Streaming HD - Watch Sport TV Today</h1>
             </div>
 
             <div id="tabs">

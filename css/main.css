@@ -167,6 +167,39 @@
   }
 }
 
+.common-list-category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.common-list-category h1 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4a5568;
+  margin-right: 6px;
+}
+.common-list-category h1:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 991px) {
+  .common-list-category h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+.common-list-category .category-item {
+  display: flex;
+  align-items: center;
+}
+.common-list-category .arrow {
+  margin-right: 6px;
+}
+
 .box-common {
   width: 100%;
   height: auto;
@@ -646,6 +679,24 @@
   .team-page-wrapper .club-description-mb {
     display: block;
     margin-top: 16px;
+  }
+}
+.team-page-wrapper .feature-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  /* Gray:900 */
+  color: #1a202c;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .team-page-wrapper .feature-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 .team-page-wrapper .list-match-table {
