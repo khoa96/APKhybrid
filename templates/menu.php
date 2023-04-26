@@ -1,5 +1,5 @@
 <div class="main-menu-wrapper">
-    <div class="container-fluid">
+    <div class="container">
         <ul class="main-menu">
             <li class="main-menu-item active">
                 <a href="leagues.html" target="">

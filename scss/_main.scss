@@ -138,6 +138,9 @@
   @include mq(max_md) {
     display: none;
   }
+  .league-item {
+    margin-bottom: 0 !important;;
+  }
 }
 
 .common-right-layout {
