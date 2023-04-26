@@ -155,6 +155,9 @@
     display: none;
   }
 }
+.common-left-layout .league-item {
+  margin-bottom: 0 !important;
+}
 
 .common-right-layout {
   flex-grow: 1;

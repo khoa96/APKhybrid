@@ -4,7 +4,7 @@
     <?php include "templates/header.php"; ?>
     <?php include "templates/menu.php"; ?>
     <div class="home-page-wrapper">
-        <div class="container-fluid">
+        <div class="container">
             <div class="home-page-content">
                 <div class="common-list-category">
                                 <div class="category-item">

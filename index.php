@@ -4,7 +4,7 @@
     <?php include "templates/header.php"; ?>
     <?php include "templates/menu.php"; ?>
     <div class="home-page-wrapper">
-        <div class="container-fluid">
+        <div class="container">
             <div class="home-page-content">
                 <h1 class="title">Live Football Streaming HD - Watch Sport TV Today</h1>
             </div>

@@ -1,5 +1,5 @@
 <div class="header">
-    <div class="container-fluid">
+    <div class="container">
         <div class="header-content">
             <a href="#" title="" target="" class="logo-header">
                     <img src="./images/logo-header.png" alt="" />
