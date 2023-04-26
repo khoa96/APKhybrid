@@ -9,7 +9,7 @@
                     <div class="banner">
                         <div class="common-list-category">
                            <div class="category-item">
-                                    <h1>Champions League</h1>
+                                    <span>Champions League</span>
                                 </div>
                             <div class="arrow">
                                 <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
@@ -26,7 +26,7 @@
                                 </svg>
                             </div>
                             <div class="category-item">
-                                    <h1>Champions League</h1>
+                                    <span>Champions League</span>
                                 </div>
                         </div>
 

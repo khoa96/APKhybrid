@@ -8,7 +8,7 @@
             <div class="page-price-header-wrapper">
                 <ul class="common-list-category">
                     <div class="category-item">
-                        <h1>Champions League</h1>
+                        <span>Champions League</span>
                     </div>
                     <span class="arrow">
                         <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,13 +24,13 @@
                         </svg>
                     </span>
                    <div class="category-item">
-                        <h1>Champions League</h1>
+                        <span>Champions League</span>
                     </div>
                 </ul>
-                <h3 class="price-title">
+                <h1 class="price-title">
                     Pricing -
                     <span class="highlight">Save 25%</span>
-                </h3>
+                </h1>
                 <p class="price-description">
                     All plans are covered by a 7-day money-back guarantee.
                 </p>
@@ -41,12 +41,12 @@
                 <div class="block-content-wrapper">
                     <div class="step-wrapper">
                         <span class="step-number step-number-1">1</span>
-                        <span class="step-detail">Choose your plan</span>
+                        <h2 class="step-detail">Choose your plan</h2>
                     </div>
 
                     <div id="select-plan-tabs" class="select-plan-content-wrapper">
                         <div class="select-plan-header">
-                            <span class="title">Choose your plan</span>
+                            <h2 class="title">Choose your plan</h2>
                             <div class="timer-countdown-wrapper">
                                 Last chance to get in 5 Hrs:
                                 <span class="hight-light">
@@ -529,7 +529,7 @@
                 <div class="block-content-wrapper">
                     <div class="step-wrapper">
                         <span class="step-number step-number-2">2</span>
-                        <span class="step-detail">Create your account</span>
+                        <h2 class="step-detail">Create your account</h2>
                     </div>
 
                     <div class="select-plan-content-wrapper create-account-content-wrapper">
@@ -632,7 +632,7 @@
                 <div class="block-content-wrapper">
                     <div class="step-wrapper">
                         <span class="step-number step-number-3">3</span>
-                        <span class="step-detail">Select a payment method</span>
+                        <h2 class="step-detail">Select a payment method</h2>
                     </div>
 
                     <div class="select-plan-content-wrapper create-account-content-wrapper select-payment">

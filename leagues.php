@@ -6,9 +6,9 @@
     <div class="all-league-page-wrapper">
         <div class="container">
             <div class="all-league-page-content">
-                <span class="label-filter">Football</span>
+                <h1 class="label-filter">Football</h1>
 
-                <h3 class="league-title">Hot League</h3>
+                <h2 class="league-title">Hot League</h2>
                 <ul class="list-league">
                     <li class="league-item">
                         <a href="#">EPL - Premier League</a>
@@ -181,7 +181,7 @@
 
                 <div class="box-all-league-wrapper">
                     <div class="header-control">
-                        <h3 class="league-title">All leagues</h3>
+                        <h2 class="league-title">All leagues</h2>
                         <button class="btn-toggle-collapse">
                             <span class="label">Collapse all</span>
                             <span class="icon-collapse">
@@ -204,7 +204,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -233,51 +233,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
-                            </div>
-                            <ul class="list-countries">
-                                <li>
-                                    <a href="#" class="">Ligue 1</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Ligue 2</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Algeria Cup</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Super Cup</a>
-                                </li>
-                                <li>
-                                    <a href="" class="">Algeria Youth League</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Superliga</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">1st Division</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">2nd Division</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Albanian Cup</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">1st Division Play-offs</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Super Cup</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="">Kampionati i Femrave</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="country-group">
-                            <div class="country-group-title">
-                                <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -321,7 +277,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -365,7 +321,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -409,7 +365,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -453,7 +409,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -497,7 +453,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -541,7 +497,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -585,7 +541,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -629,7 +585,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -673,7 +629,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -717,7 +673,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -761,7 +717,7 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
@@ -805,7 +761,51 @@
                         <li class="country-group">
                             <div class="country-group-title">
                                 <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
-                                <strong>Albania</strong>
+                                <h3>Albania</h3>
+                            </div>
+                            <ul class="list-countries">
+                                <li>
+                                    <a href="#" class="">Ligue 1</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Ligue 2</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Algeria Cup</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Super Cup</a>
+                                </li>
+                                <li>
+                                    <a href="" class="">Algeria Youth League</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Superliga</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">1st Division</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">2nd Division</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Albanian Cup</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">1st Division Play-offs</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Super Cup</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="">Kampionati i Femrave</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="country-group">
+                            <div class="country-group-title">
+                                <img src="https://flagcdn.com/w320/vn.png" class="flag-country" alt="" />
+                                <h3>Albania</h3>
                             </div>
                             <ul class="list-countries">
                                 <li>
