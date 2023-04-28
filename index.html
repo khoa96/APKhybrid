@@ -3001,6 +3001,12 @@
     $(".btn-show-list-league").on('click', function() {
         $(".show-list-league").toggle()
     })
+
+    $(".show-list-league .box-list-league .league-item").on('click', function() {
+        const text = $(this).find('.league-name').text()
+        $(".statistic-league-header-wrapper .league-info .league-detail-name").text(text)
+        $(".show-list-league").toggle()
+    })
     </script>
 </body>
 
