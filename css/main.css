@@ -256,45 +256,84 @@
   color: #111111;
 }
 .box-statistic-league .statistic-league-header-wrapper {
-  width: 100%;
   display: flex;
   align-items: center;
-  padding: 8px;
-  background-color: #fff;
+  justify-content: space-between;
   position: relative;
+  padding: 4px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e9e6dc;
+  border-radius: 4px;
 }
 .box-statistic-league .show-list-league {
   position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
   width: 100%;
   height: auto;
-  top: 100%;
-  left: 0;
-  border: 1px solid #f5f5f5;
+  background-color: #fff;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
   border-radius: 4px;
-  display: none;
+  border: 1px solid #e9e6dc;
+  padding: 0 !important;
+  box-shadow: 0 3px 0 rgba(126, 123, 107, 0.1);
 }
 .box-statistic-league .show-list-league .box-list-league {
-  padding: 12px !important;
+  padding: 0px !important;
+}
+.box-statistic-league .show-list-league .box-list-league .league-item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 16px !important;
+  gap: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111;
+}
+.box-statistic-league .show-list-league .box-list-league .league-item:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.box-statistic-league .show-list-league .box-list-league .league-image {
+  display: block;
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  object-fit: cover;
 }
 .box-statistic-league .show-list-league .box-list-league .league-name {
   max-width: 250px !important;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111;
 }
 .box-statistic-league .btn-show-list-league {
-  min-width: 32px;
-  max-width: 32px;
-  height: 32px;
   display: flex;
-  align-items: center;
+  min-width: 32px;
+  height: 32px;
   justify-content: center;
-  background-color: transparent;
-  border: none;
+  align-items: center;
   cursor: pointer;
-  border-radius: 8px;
-  background-color: #f5f5f5;
-  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #edf2f7;
+  margin-left: 4px;
 }
 .box-statistic-league .table-statistic-league {
   padding: 0px 24px 16px;
@@ -309,9 +348,9 @@
   flex-grow: 1;
 }
 .box-statistic-league .league-info .league-image {
-  min-width: 28px;
-  max-width: 28px;
-  height: 28px;
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
   object-fit: cover;
   margin-right: 8px;
 }
