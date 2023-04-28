@@ -123,6 +123,10 @@
         $("#all-tabs").tabs();
         $("#other-sport-tabs").tabs()
     });
+
+    $(".btn-show-list-league").on('click', function() {
+        $(".show-list-league").toggle()
+    })
     </script>
 </body>
 
