@@ -1315,35 +1315,27 @@
       }
     }
 
-    .non-efundable-tab {
-      border-bottom: none;
-      position: relative;
-      z-index: 999;
-      // top: 6px;
-      left: 0;
-      border-radius: 8px 8px 0px 0px;
-      // height: 90px;
-      // padding-top: 0;
-
-      @include mq(max_md) {
-        padding-top: 10px;
-        top: 0;
-        height: auto;
-      }
+    .non-efundable-content-tab  {
+      display: block;
     }
   }
 
   .payment-type-item {
     padding: 10px 12px 10px 16px;
     display: flex;
-    align-items: center;
-    gap: 0px 16px;
+    flex-direction: column;
     width: 100%;
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
+
+    .tab-label {
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
 
     @include mq(max_md) {
       padding: 10px 16px;
@@ -1361,11 +1353,9 @@
       min-width: 22px;
       max-width: 22px;
       min-height: 22px;
+      max-height: 22px;
       position: relative;
-
-      @include mq(max_md) {
-        margin-right: 0 !important;
-      }
+      margin-right: 16px;
     }
 
     .payment-info {
@@ -1504,21 +1494,16 @@
   .non-efundable-content-tab {
     width: 100%;
     height: auto;
+    display: none;
     background: #ffffff;
-    // margin-top: 8px;
-    border: 1px solid #034f76;
-    border-radius: 8px 0px 8px 8px;
-    padding: 0px 24px 24px 56px;
-    position: relative;
-    top: -6px;
+    padding: 0px 24px 24px 40px;
 
     @include mq(max_md) {
-      padding: 0px 40px 16px 56px;
+      padding: 0px 40px 16px 40px;
       border-top: none;
       margin-top: 0;
       position: relative;
       padding-top: 10px;
-      top: -10px;
     }
 
     .title {

@@ -1208,31 +1208,24 @@
 .choose-payment-type-wrapper .ui-tabs-active a .icon-checked {
   display: block;
 }
-.choose-payment-type-wrapper .ui-tabs-active .non-efundable-tab {
-  border-bottom: none;
-  position: relative;
-  z-index: 999;
-  left: 0;
-  border-radius: 8px 8px 0px 0px;
-}
-@media only screen and (max-width: 991px) {
-  .choose-payment-type-wrapper .ui-tabs-active .non-efundable-tab {
-    padding-top: 10px;
-    top: 0;
-    height: auto;
-  }
+.choose-payment-type-wrapper .ui-tabs-active .non-efundable-content-tab {
+  display: block;
 }
 .choose-payment-type-wrapper .payment-type-item {
   padding: 10px 12px 10px 16px;
   display: flex;
-  align-items: center;
-  gap: 0px 16px;
+  flex-direction: column;
   width: 100%;
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
+}
+.choose-payment-type-wrapper .payment-type-item .tab-label {
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 @media only screen and (max-width: 991px) {
   .choose-payment-type-wrapper .payment-type-item {
@@ -1250,12 +1243,9 @@
   min-width: 22px;
   max-width: 22px;
   min-height: 22px;
+  max-height: 22px;
   position: relative;
-}
-@media only screen and (max-width: 991px) {
-  .choose-payment-type-wrapper .payment-type-item .checked-box {
-    margin-right: 0 !important;
-  }
+  margin-right: 16px;
 }
 .choose-payment-type-wrapper .payment-type-item .payment-info {
   display: flex;
@@ -1373,21 +1363,17 @@
 .choose-payment-type-wrapper .non-efundable-content-tab {
   width: 100%;
   height: auto;
+  display: none;
   background: #ffffff;
-  border: 1px solid #034f76;
-  border-radius: 8px 0px 8px 8px;
-  padding: 0px 24px 24px 56px;
-  position: relative;
-  top: -6px;
+  padding: 0px 24px 24px 40px;
 }
 @media only screen and (max-width: 991px) {
   .choose-payment-type-wrapper .non-efundable-content-tab {
-    padding: 0px 40px 16px 56px;
+    padding: 0px 40px 16px 40px;
     border-top: none;
     margin-top: 0;
     position: relative;
     padding-top: 10px;
-    top: -10px;
   }
 }
 .choose-payment-type-wrapper .non-efundable-content-tab .title {
