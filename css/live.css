@@ -5519,7 +5519,9 @@ h6 {
 }
 @media only screen and (max-width: 991px) {
   .live-banner-wrapper {
-    margin: 16px 0px;
+    margin: 0;
+    background-color: #fff;
+    padding: 16px;
   }
 }
 .live-banner-wrapper .live-banner-content {
@@ -5544,6 +5546,7 @@ h6 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 14px;
   }
 }
 .live-banner-wrapper .live-banner-content .btn-buy-now {
@@ -5593,12 +5596,20 @@ h6 {
 @media only screen and (max-width: 991px) {
   .live-banner-wrapper .live-banner-content .left-content .highlight {
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     display: flex;
     align-items: center;
     color: #ffffff;
+  }
+}
+.live-banner-wrapper .live-banner-content .left-content .bold {
+  margin: 0px 4px;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper .live-banner-content .left-content .bold {
+    font-weight: bold;
   }
 }
 .live-banner-wrapper .live-banner-content .left-content .label {
@@ -5610,7 +5621,7 @@ h6 {
 }
 @media only screen and (max-width: 991px) {
   .live-banner-wrapper .live-banner-content .left-content .description {
-    min-width: max-content;
+    flex-wrap: wrap;
   }
 }
 .live-banner-wrapper .live-banner-content .left-content .price-wrapper {

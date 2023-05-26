@@ -6077,7 +6077,9 @@ h6 {
   margin: 20px 0px 24px;
 
   @include mq(max_md) {
-    margin: 16px 0px;
+    margin: 0;
+    background-color: #fff;
+    padding: 16px;
   }
 
   .live-banner-content {
@@ -6103,6 +6105,7 @@ h6 {
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
+      font-size: 14px;
     }
 
     .btn-buy-now {
@@ -6153,7 +6156,7 @@ h6 {
 
         @include mq(max_md) {
           font-style: normal;
-          font-weight: 400;
+          font-weight: bold;
           font-size: 16px;
           line-height: 24px;
           display: flex;
@@ -6162,6 +6165,12 @@ h6 {
           color: #ffffff;
         }
       }
+       .bold {
+          margin: 0px 4px;
+          @include mq(max_md) {
+            font-weight: bold;
+          }
+        }
 
       .label {
         min-width: max-content;
@@ -6171,7 +6180,7 @@ h6 {
         display: flex;
         align-items: center;
         @include mq(max_md) {
-          min-width: max-content;
+          flex-wrap: wrap;
         }
       }
       .price-wrapper {
