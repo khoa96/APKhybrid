@@ -8,4 +8,12 @@ $(document).ready(function () {
     //   $(this).css("text-align", "left");
     // }
   });
+
+  const navbarMenu = document.querySelector(".navbar-menu");
+  const navbarToggle = document.querySelector(".navbar-toggle");
+
+  $(".navbar-toggle").on("click", function () {
+    $(this).toggleClass("active");
+    $(".sub-menu").toggleClass("active");
+  });
 });

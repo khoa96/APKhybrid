@@ -39,6 +39,7 @@
 .header {
   padding: 12px 24px;
   background-color: #fff;
+  position: relative;
 }
 @media only screen and (max-width: 991px) {
   .header {
@@ -48,10 +49,70 @@
 .header .header-content {
   width: 100%;
   height: auto;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header .sub-menu {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  display: none;
+  z-index: 99999999;
+  padding: 16px;
+}
+.header .sub-menu .list-authen-mb {
+  display: flex;
+  margin-bottom: 16px;
+}
+.header .sub-menu .list-league {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header .sub-menu .list-league .league-image {
+  min-width: 32px;
+  max-width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.header .sub-menu .list-league .fire-icon {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  margin-left: 4px;
+}
+.header .sub-menu .list-league .league-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(17, 17, 17, 0.95);
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header .sub-menu .league-item-for-mb {
+  width: calc((100% - 16px) / 2);
+  height: auto;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 16px;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+}
+.header .sub-menu.active {
+  display: flex;
+  flex-direction: column;
 }
 .header .logo-header {
   min-width: 144px;
@@ -104,10 +165,17 @@
   display: flex;
   align-items: center;
 }
-.header .list-btn .btn {
+@media only screen and (max-width: 991px) {
+  .header .list-btn {
+    display: none;
+  }
+}
+.header .btn {
   padding: 7px 8px;
   border: none;
   min-width: max-content;
+  width: 100%;
+  font-family: "Poppins";
   border-radius: 4px;
   cursor: pointer;
   font-style: normal;
@@ -116,19 +184,45 @@
   line-height: 22px;
   margin-right: 12px;
 }
-.header .list-btn .btn:last-of-type {
+.header .btn:last-of-type {
   margin-right: 0;
 }
-.header .list-btn .btn-signin {
+.header .btn-signin {
   background: #034f76;
   border-radius: 4px;
   border: 1px solid #034f76;
   color: #fff;
 }
-.header .list-btn .btn-signup {
+.header .btn-signup {
   background: #ffffff;
   border: 1px solid #034f76;
   color: #034f76;
+}
+.header .navbar-toggle {
+  display: none;
+  cursor: pointer;
+  z-index: 99999;
+}
+@media only screen and (max-width: 991px) {
+  .header .navbar-toggle {
+    display: block;
+  }
+}
+.header .navbar-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.header .navbar-toggle.active span:first-child {
+  transform: translateY(6px) rotate(45deg);
+}
+.header .navbar-toggle.active span:last-child {
+  transform: translateY(-6px) rotate(-45deg);
+}
+.header .navbar-toggle span {
+  display: block;
+  height: 2px;
+  width: 24px;
+  margin-bottom: 4px;
+  background-color: #034f76;
 }
 
 .footer {
@@ -351,10 +445,10 @@
   }
 }
 .main-menu-wrapper .main-menu-item a:hover {
-  background: #F1516E;
+  background: #f1516e;
 }
 .main-menu-wrapper .active a {
-  background: #F1516E;
+  background: #f1516e;
 }
 
 /*# sourceMappingURL=header.css.map */

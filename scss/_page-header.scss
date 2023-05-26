@@ -6,6 +6,7 @@
 .header {
   padding: 12px 24px;
   background-color: #fff;
+  position: relative;
   @include mq(max_md) {
     padding: 8px 12px;
   }
@@ -13,10 +14,78 @@
   .header-content {
     width: 100%;
     height: auto;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .sub-menu {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    display: none;
+    z-index: 99999999;
+    padding: 16px;
+
+    .list-authen-mb {
+      display: flex;
+      margin-bottom: 16px;
+    }
+
+    .list-league {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .league-image {
+        min-width: 32px;
+        max-width: 32px;
+        height: 32px;
+        border: none;
+        border-radius: 50%;
+        margin-right: 12px;
+      }
+
+      .fire-icon {
+        min-width: 24px;
+        max-width: 24px;
+        height: 24px;
+        margin-left: 4px;
+      }
+
+      .league-name {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: rgba(17, 17, 17, 0.95);
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .league-item-for-mb {
+      width: calc((100% - 16px) / 2);
+      height: auto;
+      background: #ffffff;
+      border-radius: 4px;
+      border: none;
+      margin-bottom: 16px;
+      padding: 11px;
+      display: flex;
+      align-items: center;
+    }
+
+    &.active {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .logo-header {
@@ -75,37 +144,72 @@
     display: flex;
     align-items: center;
 
-    .btn {
-      padding: 7px 8px;
-      border: none;
-      min-width: max-content;
+    @include mq(max_md) {
+      display: none;
+    }
+  }
 
-      border-radius: 4px;
-      cursor: pointer;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 22px;
+  .btn {
+    padding: 7px 8px;
+    border: none;
+    min-width: max-content;
+    width: 100%;
 
-      margin-right: 12px;
+    font-family: "Poppins";
 
-      &:last-of-type {
-        margin-right: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    margin-right: 12px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .btn-signin {
+    background: #034f76;
+    border-radius: 4px;
+    border: 1px solid #034f76;
+    color: #fff;
+  }
+
+  .btn-signup {
+    background: #ffffff;
+    border: 1px solid #034f76;
+    color: #034f76;
+  }
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+    z-index: 99999;
+
+    @include mq(max_md) {
+      display: block;
+    }
+
+    &.active {
+      span:nth-child(2) {
+        opacity: 0;
+      }
+      span:first-child {
+        transform: translateY(6px) rotate(45deg);
+      }
+      span:last-child {
+        transform: translateY(-6px) rotate(-45deg);
       }
     }
+  }
 
-    .btn-signin {
-      background: #034f76;
-      border-radius: 4px;
-      border: 1px solid #034f76;
-      color: #fff;
-    }
-
-    .btn-signup {
-      background: #ffffff;
-      border: 1px solid #034f76;
-      color: #034f76;
-    }
+  .navbar-toggle span {
+    display: block;
+    height: 2px;
+    width: 24px;
+    margin-bottom: 4px;
+    background-color: #034f76;
   }
 }
 
@@ -356,14 +460,14 @@
       }
 
       &:hover {
-        background: #F1516E;
+        background: #f1516e;
       }
     }
   }
 
   .active {
     a {
-      background: #F1516E;
+      background: #f1516e;
     }
   }
 }

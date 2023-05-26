@@ -581,7 +581,7 @@ h6 {
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
-	max-height: 30px;
+  max-height: 30px;
 }
 // ============LEAGUE TABS ===============
 .league-nav {
@@ -3811,27 +3811,26 @@ h6 {
     justify-content: space-between;
     align-items: center;
 
-		.match-hour {
-			width: 20%;
-			min-width: max-content;
-		}
+    .match-hour {
+      width: 20%;
+      min-width: max-content;
+    }
 
-		.match-date {
-			width: 70%;
-			color: #A0AEC0;
-			display: flex;
-			justify-content: center;
-		}
+    .match-date {
+      width: 70%;
+      color: #a0aec0;
+      display: flex;
+      justify-content: center;
+    }
 
-		.match-sign {
-		   width: 10%;
-			text-transform: uppercase;
-		}
+    .match-sign {
+      width: 10%;
+      text-transform: uppercase;
+    }
 
-		@include mq(max_md) {
-			max-width: 150px;
-		}
-
+    @include mq(max_md) {
+      max-width: 150px;
+    }
   }
 
   .time {
@@ -3873,7 +3872,7 @@ h6 {
 
     @include mq(max_md) {
       max-width: 250px;
-			padding-left: 8px;
+      padding-left: 8px;
     }
   }
 
@@ -4406,7 +4405,7 @@ h6 {
     padding: 6px 16px;
     max-width: 100%;
     margin: auto;
-		overflow: hidden;
+    overflow: hidden;
 
     @media only screen and (max-width: 1500px) {
       max-width: 100%;
@@ -4925,7 +4924,7 @@ h6 {
 
   border: 1px solid #e2e8f0;
   border-radius: 8px;
-	max-width: 100%;
+  max-width: 100%;
 
   @include mq(max_md) {
     border: none;
@@ -5695,39 +5694,39 @@ h6 {
       }
     }
 
-		.visual-club-1 {
-			.value {
-				position: absolute;
-				min-width: max-content;
-				left: 100%;
-				top: 25%;
-				font-size: 12px;
-				border-radius: 2px;
-				color: #111;
-				background-color: #0dc66d;
-				padding: 2px 4px;
-				@include mq(max_md) {
-					display: none;
-				}
-			}
-		}
+    .visual-club-1 {
+      .value {
+        position: absolute;
+        min-width: max-content;
+        left: 100%;
+        top: 25%;
+        font-size: 12px;
+        border-radius: 2px;
+        color: #111;
+        background-color: #0dc66d;
+        padding: 2px 4px;
+        @include mq(max_md) {
+          display: none;
+        }
+      }
+    }
     .visual-club-2 {
       flex-direction: row-reverse;
 
-			.value {
-				position: absolute;
-				min-width: max-content;
-				right: 100%;
-				top: 25%;
-				font-size: 12px;
-				border-radius: 2px;
-				color: #111;
-				background-color: #0dc66d;
-				padding: 2px 4px;
-				@include mq(max_md) {
-					display: none;
-				}
-			}
+      .value {
+        position: absolute;
+        min-width: max-content;
+        right: 100%;
+        top: 25%;
+        font-size: 12px;
+        border-radius: 2px;
+        color: #111;
+        background-color: #0dc66d;
+        padding: 2px 4px;
+        @include mq(max_md) {
+          display: none;
+        }
+      }
       @include mq(max_md) {
         flex-direction: column-reverse;
       }
@@ -5738,27 +5737,26 @@ h6 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-			position: relative;
+      position: relative;
 
-			.list-card {
-				width: 100%;
-				position: absolute;
-				bottom: 100%;
-				left: 0;
-				display: flex;
-				justify-content: center;
+      .list-card {
+        width: 100%;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
 
-				@include mq(max_md) {
-					display: none;
-				}
+        @include mq(max_md) {
+          display: none;
+        }
 
-				.card-item {
-					min-width: 12px;
-					max-width: 12px;
-					margin-right: 4px;
-				}
-			}
-
+        .card-item {
+          min-width: 12px;
+          max-width: 12px;
+          margin-right: 4px;
+        }
+      }
 
       .number {
         width: 32px;
@@ -6068,8 +6066,159 @@ h6 {
 }
 
 .icon-star {
-	padding-left: 16px;
+  padding-left: 16px;
   @include mq(max_md) {
     padding-left: 8px;
+  }
+}
+
+.live-banner-wrapper {
+  width: 100%;
+  margin: 20px 0px 24px;
+
+  @include mq(max_md) {
+    margin: 16px 0px;
+  }
+
+  .live-banner-content {
+    background: #034f76;
+    border-radius: 8px;
+    padding: 12px 16px 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+
+    @include mq(max_md) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .btn-buy-now {
+      padding: 7px 32px;
+      background: #f1516e;
+      border-radius: 8px;
+      border: none;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height */
+
+      color: #ffffff;
+    }
+    .left-content {
+      display: flex;
+      align-items: center;
+
+      @include mq(max_md) {
+        flex-direction: column;
+        margin-bottom: 12p;
+      }
+
+      .price-info-wrapper {
+        display: flex;
+        align-items: center;
+
+        @include mq(max_md) {
+          width: 100%;
+          margin-bottom: 4px;
+        }
+      }
+
+      .highlight {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #f1516e;
+        margin: 0px 6px;
+
+        @include mq(max_md) {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+
+          color: #ffffff;
+        }
+      }
+
+      .label {
+        min-width: max-content;
+      }
+
+      .description {
+        display: flex;
+        align-items: center;
+        @include mq(max_md) {
+          min-width: max-content;
+        }
+      }
+      .price-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 7px 14px;
+        background: #f7fafc;
+        border-radius: 1000px;
+        margin: 0px 8px;
+        max-height: 38px;
+
+        .price {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 48px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+
+          color: #f1516e;
+          margin-right: 4px;
+        }
+
+        .month {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+
+          color: #034f76;
+        }
+      }
+    }
+
+    .right-content {
+      @include mq(max_md) {
+        display: flex;
+        margin-top: 16px;
+        justify-content: flex-end;
+        width: 100%;
+      }
+    }
   }
 }

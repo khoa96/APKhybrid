@@ -3451,7 +3451,7 @@ h6 {
 }
 .common-home-league-table .time-wrapper .match-date {
   width: 70%;
-  color: #A0AEC0;
+  color: #a0aec0;
   display: flex;
   justify-content: center;
 }
@@ -5510,6 +5510,145 @@ h6 {
 @media only screen and (max-width: 991px) {
   .icon-star {
     padding-left: 8px;
+  }
+}
+
+.live-banner-wrapper {
+  width: 100%;
+  margin: 20px 0px 24px;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper {
+    margin: 16px 0px;
+  }
+}
+.live-banner-wrapper .live-banner-content {
+  background: #034f76;
+  border-radius: 8px;
+  padding: 12px 16px 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper .live-banner-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.live-banner-wrapper .live-banner-content .btn-buy-now {
+  padding: 7px 32px;
+  background: #f1516e;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.live-banner-wrapper .live-banner-content .left-content {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper .live-banner-content .left-content {
+    flex-direction: column;
+    margin-bottom: 12p;
+  }
+}
+.live-banner-wrapper .live-banner-content .left-content .price-info-wrapper {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper .live-banner-content .left-content .price-info-wrapper {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+}
+.live-banner-wrapper .live-banner-content .left-content .highlight {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #f1516e;
+  margin: 0px 6px;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper .live-banner-content .left-content .highlight {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+}
+.live-banner-wrapper .live-banner-content .left-content .label {
+  min-width: max-content;
+}
+.live-banner-wrapper .live-banner-content .left-content .description {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper .live-banner-content .left-content .description {
+    min-width: max-content;
+  }
+}
+.live-banner-wrapper .live-banner-content .left-content .price-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 7px 14px;
+  background: #f7fafc;
+  border-radius: 1000px;
+  margin: 0px 8px;
+  max-height: 38px;
+}
+.live-banner-wrapper .live-banner-content .left-content .price-wrapper .price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #f1516e;
+  margin-right: 4px;
+}
+.live-banner-wrapper .live-banner-content .left-content .price-wrapper .month {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #034f76;
+}
+@media only screen and (max-width: 991px) {
+  .live-banner-wrapper .live-banner-content .right-content {
+    display: flex;
+    margin-top: 16px;
+    justify-content: flex-end;
+    width: 100%;
   }
 }
 
