@@ -14,6 +14,6 @@ $(document).ready(function () {
 
   $(".navbar-toggle").on("click", function () {
     $(this).toggleClass("active");
-    $(".sub-menu").toggleClass("active");
+    $(".menu-for-mb-only").toggleClass("active");
   });
 });

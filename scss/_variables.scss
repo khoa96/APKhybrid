@@ -1,7 +1,7 @@
 @charset "utf-8";
 $experimental-support-for-svg: true;
 
-$font_main: 'Poppins';
+$font_main: 'HarmonyOS Sans Regular';
 
 $sm: 576px;
 $md: 768px;
@@ -9,13 +9,11 @@ $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
 
-$primary-color: #FDC400;
-$secondary-color: #F91E4E;
+$primary-color: #111827;
+$secondary-color: #003044;
+$third-color: #003044;
+$green-color: #00AF46;
+$gray-color: #6B7280;
+$background-primary-color: #F3F4F6;
+$background-secondary-color: #F3F4F6
 
-// color background
-$background-primary-color: #F5F5F5;
-$background-secondary-color: #313131;
-
-// color content
-$content-primary: #1A202C;
-$content-white: #ffffff;
