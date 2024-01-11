@@ -867,7 +867,6 @@ form {
   }
 
   &__left {
-    flex-grow: 1;
     width: 100%;
   }
 }
@@ -1056,6 +1055,10 @@ form {
   background-color: #fff;
   margin-bottom: 8px;
 
+  @include mq(max_md) {
+    padding: 8px;
+  }
+
  
 
   .btn-download {
@@ -1084,7 +1087,7 @@ form {
     }
 
     @include mq(max_xs) {
-      padding: 4px 6px;
+      padding: 8px;
       font-size: 13px;
 
       svg {
@@ -1191,7 +1194,7 @@ form {
         line-height: 20px; /* 142.857% */
 
           @include mq(max_md) {
-          font-size: 13px;
+          font-size: 12px;
         }
       }
     }
@@ -1210,11 +1213,74 @@ form {
     text-align: center;
     border-radius: 12px;
     cursor: pointer;
+    background-color: #fff;;
     border: 1.5px solid var(--007-aff, #00af46);
-    background: #fff;
+    color: $green-color;;
     outline: none;
     &:focus {
       outline: none;
+    }
+  }
+}
+
+
+// style hot game page
+.common-filter-list__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.common-filter-item {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 1px solid var(--cool-gray-900, #111827);
+  color: var(--cool-gray-900, #111827);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+
+  .icon-filter {
+    min-width: 16px;
+    max-width: 16px;
+    height: 16px;
+    object-fit: cover;
+    margin-right: 8px;
+  }
+
+  &.active {
+    color: #fff;
+    background-color: #111;;
+  }
+}
+
+.common-list-filter__wrapper {
+  display: flex;
+  margin-top: 24px;
+  flex-wrap: wrap;
+
+  @include mq(max_md) {
+    margin-top: 16px;
+  }
+
+  .common-list-filter__item {
+    width: calc((100% - 8px) / 2);
+    height: auto;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    @include mq(max_md) {
+      width: 100%;
+      margin-right: 0;
     }
   }
 }

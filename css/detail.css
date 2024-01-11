@@ -597,4 +597,24 @@
   line-height: normal;
 }
 
+.see-all-page__wrapper {
+  padding: 24px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .see-all-page__wrapper {
+    padding: 16px 0px;
+  }
+}
+.see-all-page__wrapper .list-similar .common-horizontal-app {
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 12px;
+}
+.see-all-page__wrapper .list-similar .common-horizontal-app .app-category {
+  margin-bottom: 0;
+}
+.see-all-page__wrapper .list-similar .common-horizontal-app:last-child .info-wrapper {
+  border-bottom: none;
+}
+
 /*# sourceMappingURL=detail.css.map */

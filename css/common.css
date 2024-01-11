@@ -862,7 +862,6 @@ form {
   }
 }
 .common-layout__left {
-  flex-grow: 1;
   width: 100%;
 }
 
@@ -1037,6 +1036,11 @@ form {
   background-color: #fff;
   margin-bottom: 8px;
 }
+@media only screen and (max-width: 991px) {
+  .common-discover__item {
+    padding: 8px;
+  }
+}
 .common-discover__item .btn-download {
   padding: 8px 16px;
   cursor: pointer;
@@ -1063,7 +1067,7 @@ form {
 }
 @media only screen and (max-width: 575px) {
   .common-discover__item .btn-download {
-    padding: 4px 6px;
+    padding: 8px;
     font-size: 13px;
   }
   .common-discover__item .btn-download svg {
@@ -1166,7 +1170,7 @@ form {
 }
 @media only screen and (max-width: 991px) {
   .common-discover__item .download-info__wrapper .item-info .text {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
@@ -1182,12 +1186,72 @@ form {
   text-align: center;
   border-radius: 12px;
   cursor: pointer;
+  background-color: #fff;
   border: 1.5px solid var(--007-aff, #00af46);
-  background: #fff;
+  color: #00AF46;
   outline: none;
 }
 .common-center-layout .btn-see-more:focus {
   outline: none;
+}
+
+.common-filter-list__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.common-filter-item {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 1px solid var(--cool-gray-900, #111827);
+  color: var(--cool-gray-900, #111827);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.common-filter-item .icon-filter {
+  min-width: 16px;
+  max-width: 16px;
+  height: 16px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.common-filter-item.active {
+  color: #fff;
+  background-color: #111;
+}
+
+.common-list-filter__wrapper {
+  display: flex;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 991px) {
+  .common-list-filter__wrapper {
+    margin-top: 16px;
+  }
+}
+.common-list-filter__wrapper .common-list-filter__item {
+  width: calc((100% - 8px) / 2);
+  height: auto;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.common-list-filter__wrapper .common-list-filter__item:nth-child(2n) {
+  margin-right: 0;
+}
+@media only screen and (max-width: 991px) {
+  .common-list-filter__wrapper .common-list-filter__item {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */

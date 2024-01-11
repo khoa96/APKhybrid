@@ -632,4 +632,27 @@
 
 // see all page 
 .see-all-page__wrapper {
+  padding: 24px 0px;
+
+  @include mq(max_md) {
+    padding: 16px 0px;
+  }
+
+  .list-similar {
+     .common-horizontal-app {
+      min-width: 100%;
+      max-width: 100%;
+      margin-bottom: 12px;
+
+      .app-category {
+        margin-bottom: 0;
+      }
+
+      &:last-child {
+        .info-wrapper {
+          border-bottom: none;
+        }
+      }
+    }
+  }
 }
