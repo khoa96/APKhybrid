@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+
+
+.news-page__wrapper {
+  padding: 24px 0px;
+
+  @include mq(max_md) {
+    padding: 16px 0px;
+  }
+
+  .common-layout__left {
+    flex-grow: 1;
+    padding: 24px;
+    background-color: #fff;
+     border-radius: 20px;
+
+    @include mq(max_md) {
+      padding: 16px;
+    }
+  }
+
+  .common-layout__right {
+    min-width: 392px;
+    max-width: 392px;
+    border-radius: 20px;
+  }
+
+  .list-news__wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
