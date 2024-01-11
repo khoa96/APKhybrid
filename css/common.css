@@ -869,6 +869,7 @@ form {
   border-radius: 20px;
   background: #fff;
   padding: 24px;
+  max-height: fit-content;
 }
 .common-right-sidebar-block__title {
   color: var(--cool-gray-900, #111827);
