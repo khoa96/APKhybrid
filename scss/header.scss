@@ -179,6 +179,7 @@
         left: 0;
         flex-wrap: wrap;
         max-width: 640px;
+        z-index: 99999;
         border-radius: 12px;
         padding: 16px 24px;
         border: 1px solid var(--gray-200, #e4e4e7);
