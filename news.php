@@ -82,7 +82,7 @@
         <!-- RIGHT SIDEBAR START -->
         <div class="common-layout__right">
           <div class="common-right-sidebar-block__wrapper">
-            <h3 class="common-right-sidebar-block__title">Top new games</h3>
+            <h3 class="common-right-sidebar-block__title">Latest new</h3>
             <div class="common-right-sidebar-block__content">
               <div class="list-news__wrapper">
                 <a href="#" target="" title="" class="common-news-item small-news">
@@ -123,24 +123,24 @@
   </div>
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      // PC
-      var sliderBanner = $(
-        ".slider-banner-block__wrapper .slider-banner-block__list"
-      ).slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  $(function() {
+    // PC
+    var sliderBanner = $(
+      ".slider-banner-block__wrapper .slider-banner-block__list"
+    ).slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
@@ -154,13 +154,13 @@
             dots: true,
           },
         },
-        ],
-      });
-
-      $(".slider-banner-block__wrapper .btn-next").on("click", function () {
-        sliderBanner.slick("next");
-      });
+      ],
     });
+
+    $(".slider-banner-block__wrapper .btn-next").on("click", function() {
+      sliderBanner.slick("next");
+    });
+  });
   </script>
 
 </body>
