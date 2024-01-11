@@ -13,24 +13,200 @@
             <img src="./images/icon-home.png" alt="">
             <span class="text-label">Home</span>
           </a>
+          <ul class="sub-menu-for-pc">
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Avatar World: City Life</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Công cụ</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+          </ul>
         </li>
         <li class="main-menu__pc-item">
           <a href=" #" target="" title>
             <img src="./images/icon-game.png" alt="">
             <span class="text-label">Games</span>
           </a>
+          <ul class="sub-menu-for-pc">
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Avatar World: City Life</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Công cụ</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+          </ul>
         </li>
         <li class="main-menu__pc-item">
           <a href=" #" target="" title>
             <img src="./images/icon-app.png" alt="">
             <span class="text-label">Apps</span>
           </a>
+          <ul class="sub-menu-for-pc">
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Avatar World: City Life</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Công cụ</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+          </ul>
         </li>
         <li class="main-menu__pc-item">
           <a href=" #" target="" title>
             <img src="./images/icon-article.png" alt="">
             <span class="text-label">Articles</span>
           </a>
+          <ul class="sub-menu-for-pc">
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Avatar World: City Life</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Công cụ</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Among Us</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+            <li class="sub-menu-for-pc__item">
+              <a href="#" target="" title="">
+                <img src="./images/icon-game.png" class="icon-sub-menu" alt="">
+                <span class="text">Netflix Echocalypse</span>
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
