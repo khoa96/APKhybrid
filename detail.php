@@ -711,24 +711,24 @@
   </div>
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      // PC
-      var sliderBanner = $(
-        ".slider-banner-block__wrapper .slider-banner-block__list"
-      ).slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  $(function() {
+    // PC
+    var sliderBanner = $(
+      ".slider-banner-block__wrapper .slider-banner-block__list"
+    ).slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
@@ -742,13 +742,13 @@
             dots: true,
           },
         },
-        ],
-      });
-
-      $(".slider-banner-block__wrapper .btn-next").on("click", function () {
-        sliderBanner.slick("next");
-      });
+      ],
     });
+
+    $(".slider-banner-block__wrapper .btn-next").on("click", function() {
+      sliderBanner.slick("next");
+    });
+  });
   </script>
 
 </body>

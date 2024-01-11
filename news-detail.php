@@ -96,7 +96,79 @@
           </div>
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Top News</h2>
+              <h2 class="common-section-layout__title">Top news</h2>
+
+            </div>
+
+            <div class="common-section-layout__content">
+
+              <div class="slider-banner-block__wrapper">
+                <div class="slider-banner-block__list">
+                  <a href="#" target="" title="" class="common-vertical-news">
+                    <div class="news-image-wrapper">
+                      <img src="./images/news-1.png" class="news-image" alt="">
+                    </div>
+
+                    <div class="news-info-wrapper">
+                      <h3 class="news-title">Cách Tải Và Chơi Game Ace Racer Trên IOS, Android</h3>
+                      <span class="news-time">2023-03-17</span>
+                    </div>
+                  </a>
+                  <a href="#" target="" title="" class="common-vertical-news">
+                    <div class="news-image-wrapper">
+                      <img src="./images/news-2.png" class="news-image" alt="">
+                    </div>
+
+                    <div class="news-info-wrapper">
+                      <h3 class="news-title">Cách tải xuống Squad Busters ở bất kỳ quốc gia nào</h3>
+                      <span class="news-time">2023-03-17</span>
+                    </div>
+                  </a>
+                  <a href="#" target="" title="" class="common-vertical-news">
+                    <div class="news-image-wrapper">
+                      <img src="./images/news-3.png" class="news-image" alt="">
+                    </div>
+
+                    <div class="news-info-wrapper">
+                      <h3 class="news-title">Genshin Impact 4.0: Cập nhật nội dung hấp dẫn đang chờ đón người chơi</h3>
+                      <span class="news-time">2023-03-17</span>
+                    </div>
+                  </a>
+                  <a href="#" target="" title="" class="common-vertical-news">
+                    <div class="news-image-wrapper">
+                      <img src="./images/news-4.png" class="news-image" alt="">
+                    </div>
+
+                    <div class="news-info-wrapper">
+                      <h3 class="news-title">65 Primogem:Thành tựu ẩn trong Sumeru Thành tựu Genshin Impact</h3>
+                      <span class="news-time">2023-03-17</span>
+                    </div>
+                  </a>
+                  <a href="#" target="" title="" class="common-vertical-news">
+                    <div class="news-image-wrapper">
+                      <img src="./images/news-3.png" class="news-image" alt="">
+                    </div>
+
+                    <div class="news-info-wrapper">
+                      <h3 class="news-title">Genshin Impact 4.0: Cập nhật nội dung hấp dẫn đang chờ đón người chơi</h3>
+                      <span class="news-time">2023-03-17</span>
+                    </div>
+                  </a>
+                  <a href="#" target="" title="" class="common-vertical-news">
+                    <div class="news-image-wrapper">
+                      <img src="./images/news-2.png" class="news-image" alt="">
+                    </div>
+
+                    <div class="news-info-wrapper">
+                      <h3 class="news-title">Cách tải xuống Squad Busters ở bất kỳ quốc gia nào</h3>
+                      <span class="news-time">2023-03-17</span>
+                    </div>
+                  </a>
+                </div>
+                <button class="btn btn-next">
+                  <img src="./images/icon-arrow-mb.png" class="icon-arrow" alt="">
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -154,24 +226,24 @@
   </div>
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      // PC
-      var sliderBanner = $(
-        ".slider-banner-block__wrapper .slider-banner-block__list"
-      ).slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  $(function() {
+    // PC
+    var sliderBanner = $(
+      ".slider-banner-block__wrapper .slider-banner-block__list"
+    ).slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
@@ -182,16 +254,15 @@
           settings: {
             slidesToShow: 1,
             autoplay: true,
-            dots: true,
           },
         },
-        ],
-      });
-
-      $(".slider-banner-block__wrapper .btn-next").on("click", function () {
-        sliderBanner.slick("next");
-      });
+      ],
     });
+
+    $(".slider-banner-block__wrapper .btn-next").on("click", function() {
+      sliderBanner.slick("next");
+    });
+  });
   </script>
 
 </body>
