@@ -117,3 +117,23 @@
     <span>Download</span>
   </button>
 </a>
+
+
+<!-- common app item -->
+<a href="#" class="common-app__item">
+  <div class="image-block__wrapper">
+    <img src="./images/banner-image-1.png" class="main-image" alt="">
+  </div>
+  <div class="content-detail-block__wrapper">
+    <div class="content-detail__wrapper">
+      <div class="sub-image-wrapper">
+        <img src="./images/sub-banner-image-1.png" class="sub-image" alt="">
+      </div>
+      <div class="right-content">
+        <h3 class="title text-overflow">Black Clover M</h3>
+        <p class="description">Role Playing</p>
+      </div>
+    </div>
+    <button class="btn-download">Download</button>
+  </div>
+</a>

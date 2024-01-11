@@ -18,7 +18,7 @@
                 </div>
                 <div class="right-content">
                   <h3 class="title text-overflow">Black Clover M</h3>
-                  <p class="description">Role Playing</p>
+                  <p class="description text-overflow">Role Playing</p>
                 </div>
               </div>
               <button class="btn-download">Download</button>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="right-content">
                   <h3 class="title text-overflow">Black Clover M</h3>
-                  <p class="description">Role Playing</p>
+                  <p class="description text-overflow">Role Playing</p>
                 </div>
               </div>
               <button class="btn-download">Download</button>
@@ -112,7 +112,6 @@
               <button class="btn-download">Download</button>
             </div>
           </a>
-
         </div>
 
         <button class="btn btn-next">
@@ -1336,7 +1335,7 @@
   </div>
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
+  $(function() {
     // PC
     var sliderBanner = $(
       ".slider-banner-block__wrapper .slider-banner-block__list"
