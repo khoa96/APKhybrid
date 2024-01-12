@@ -201,10 +201,8 @@ form {
     padding: 16px;
     border-radius: 0px 0px 20px 20px;
     color: #fff;
-    background:
-      linear-gradient(0deg, #00537e 0%, #00537e 100%),
-      url(<path-to-image>),
-      lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, #00537e 0%, #00537e 100%),
+      url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow: 0px 10px 10px 0px rgba(0, 83, 126, 0.25);
     display: flex;
     align-items: center;
@@ -449,15 +447,16 @@ form {
       font-style: normal;
       font-weight: 700;
       line-height: normal;
-      filter: drop-shadow(-4px 0 0 #fff) drop-shadow(4px 0 0 #fff) drop-shadow(0 -4px 0 #fff) drop-shadow(0 4px 0 #fff);
+      filter: drop-shadow(-4px 0 0 #fff) drop-shadow(4px 0 0 #fff)
+        drop-shadow(0 -4px 0 #fff) drop-shadow(0 4px 0 #fff);
 
       @include mq(max_md) {
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        filter: drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff) drop-shadow(0 -3px 0 #fff)
-          drop-shadow(0 3px 0 #fff);
+        filter: drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff)
+          drop-shadow(0 -3px 0 #fff) drop-shadow(0 3px 0 #fff);
       }
     }
 
@@ -1288,7 +1287,6 @@ form {
   display: flex;
   border-bottom: 1px solid rgba(229, 231, 235, 0.5);
 
-
   @media (max-width: 500px) {
     flex-direction: column;
     justify-content: center;
@@ -1303,13 +1301,19 @@ form {
     height: 92px;
 
     @media (max-width: 500px) {
-     margin-right: 0;
-     margin-bottom: 12px;
-     width: 311px;
+      margin-right: 0;
+      margin-bottom: 12px;
+      width: 311px;
       height: 174px;
       flex-shrink: 0;
       max-width: 100%;
-  }
+    }
+    @media (max-width: 400px) {
+      width: 100%;
+      flex-shrink: 0;
+      max-width: 100%;
+      border: 1px solid green;
+    }
 
     img {
       display: block;
@@ -1360,9 +1364,9 @@ form {
 
   &.small-news {
     padding: 12px 0px;
-      &:last-child {
-    border-bottom: none;
-  }
+    &:last-child {
+      border-bottom: none;
+    }
     .common-news-item__image-wrapper {
       min-width: 121px;
       max-width: 121px;
@@ -1374,7 +1378,7 @@ form {
 
       .common-news-item__title {
         color: var(--cool-gray-900, #111827);
-        font-family: HarmonyOS Sans  Medium;
+        font-family: HarmonyOS Sans Medium;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;

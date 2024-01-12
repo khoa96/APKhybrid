@@ -1285,6 +1285,13 @@ form {
     max-width: 100%;
   }
 }
+@media (max-width: 450px) {
+  .common-news-item__image-wrapper {
+    width: 100%;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+}
 .common-news-item__image-wrapper img {
   display: block;
   width: 100%;
