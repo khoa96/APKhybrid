@@ -865,7 +865,10 @@ form {
   }
 
   &__left {
-    width: 100%;
+    width: calc(100% - 288px - 24px);
+      @include mq(max_md) {
+      width: 100%;
+    }
   }
 }
 

@@ -10,13 +10,14 @@
   }
 
   .common-layout__left {
-    flex-grow: 1;
     padding: 24px;
     background-color: #fff;
     border-radius: 20px;
+    width: calc(100% - 392px - 24px);
 
     @include mq(max_md) {
       padding: 16px;
+      width: 100%;
     }
   }
 
@@ -50,19 +51,19 @@
       max-width: 237px;
       height: auto;
       margin-right: 24px;
-      
+
       .news-image-wrapper {
-    width: 100%;
-    min-width: 100%;
-    height: 134px;
-    img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 12px;
-    }
-  }
+        width: 100%;
+        min-width: 100%;
+        height: 134px;
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 12px;
+        }
+      }
     }
   }
 }
