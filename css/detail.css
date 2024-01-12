@@ -554,6 +554,19 @@
   margin-bottom: 12px;
   position: relative;
 }
+.detail-page__wrapper .list-discover .common-vertical-app:nth-child(7n) {
+  margin-right: 0;
+}
+@media (max-width: 1300px) {
+  .detail-page__wrapper .list-discover .common-vertical-app:nth-child(7n) {
+    margin-right: 24px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .detail-page__wrapper .list-discover .common-vertical-app:nth-child(7n) {
+    margin-right: 16px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .detail-page__wrapper .list-discover .common-vertical-app {
     width: calc((100% - 96px) / 7);
@@ -562,9 +575,6 @@
     margin-bottom: 8px;
     padding-bottom: 8px;
   }
-}
-.detail-page__wrapper .list-discover .common-vertical-app:nth-child(7n) {
-  margin-right: 0;
 }
 
 .list-game__right-side-bar {

@@ -579,6 +579,16 @@
       margin-right: 24px;
       margin-bottom: 12px;
       position: relative;
+      &:nth-child(7n) {
+        margin-right: 0;
+
+        @media(max-width: 1300px) {
+          margin-right: 24px;
+        }
+         @include mq(max_md) {
+          margin-right: 16px;
+        }
+      }
 
       @include mq(max_md) {
         width: calc((100% - 96px) / 7);
@@ -588,9 +598,7 @@
         padding-bottom: 8px;
       }
 
-      &:nth-child(7n) {
-        margin-right: 0;
-      }
+
     }
   }
 }
