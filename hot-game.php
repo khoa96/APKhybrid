@@ -159,7 +159,7 @@
                 </div>
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">
-                    Gangstar New York York</h3>
+                    Gangstar New York York Gangstar New York York Gangstar New York York</h3>
                   <span class="app-category">Action</span>
                   <div class="download-info__wrapper">
                     <div class="item-info">
@@ -198,7 +198,7 @@
                 </div>
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">
-                    Gangstar New York York</h3>
+                    Gangstar New York York Gangstar New York York</h3>
                   <span class="app-category">Action</span>
                   <div class="download-info__wrapper">
                     <div class="item-info">
