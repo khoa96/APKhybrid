@@ -393,7 +393,7 @@ form {
 
 .common-vertical-app {
   width: calc((100% - 192px) / 9);
-  min-width: 100px;
+  min-width: 110px;
   margin-right: 23px;
   margin-bottom: 12px;
   position: relative;
@@ -401,7 +401,7 @@ form {
 @media only screen and (max-width: 991px) {
   .common-vertical-app {
     width: calc((100% - 128px) / 9);
-    min-width: 90px;
+    min-width: 80px;
     margin-right: 15px;
     margin-bottom: 8px;
     padding-bottom: 8px;
@@ -423,7 +423,7 @@ form {
     max-width: 80px;
     height: 80px;
     object-fit: cover;
-    border-radius: 22px;
+    border-radius: 20px;
   }
 }
 .common-vertical-app .app-info-wrapper {
@@ -614,8 +614,6 @@ form {
 .common-horizontal-app {
   width: calc((100% - 48px) / 3);
   margin-right: 24px;
-  min-width: 376px;
-  max-width: 376px;
   display: flex;
   margin-bottom: 8px;
 }
@@ -624,16 +622,12 @@ form {
 }
 @media only screen and (max-width: 991px) {
   .common-horizontal-app {
-    width: calc((100% - 32px) / 3);
+    min-width: 280px;
+    max-width: 280px;
     margin-right: 16px;
   }
   .common-horizontal-app:nth-child(3n) {
-    margin-right: 24px !important;
-  }
-}
-@media only screen and (max-width: 575px) {
-  .common-horizontal-app {
-    max-width: 315px;
+    margin-right: 16px;
   }
 }
 .common-horizontal-app .w-72 {
@@ -713,9 +707,9 @@ form {
   line-height: 16px; /* 133.333% */
 }
 
-@media (max-width: 1320px) {
+@media only screen and (max-width: 991px) {
   .common-flex-wrap-list__wrapper {
-    max-width: 100%;
+    max-width: 100vw;
     overflow-x: scroll;
   }
 }
@@ -724,20 +718,13 @@ form {
   display: flex;
   flex-wrap: wrap;
 }
-@media (max-width: 1320px) {
+@media only screen and (max-width: 991px) {
   .common-flex-wrap-list {
-    min-width: 1200px;
-  }
-}
-
-@media (max-width: 1320px) {
-  .hot-game-list-wrapper {
-    min-width: 1010px;
+    min-width: 900px;
   }
 }
 
 .common-horizontal-hot-app {
-  min-width: 370px;
   width: calc((100% - 48px) / 3);
   margin-right: 24px;
   display: flex;
@@ -751,8 +738,8 @@ form {
 }
 @media only screen and (max-width: 991px) {
   .common-horizontal-hot-app {
-    min-width: 315px;
-    max-width: 315px;
+    min-width: 280px;
+    max-width: 280px;
     margin-right: 16px;
   }
 }
@@ -771,6 +758,11 @@ form {
   border: none;
   border-radius: 8px;
   background-color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  .common-horizontal-hot-app .btn-download {
+    display: none;
+  }
 }
 .common-horizontal-hot-app.hot-top-1 {
   background-color: rgba(255, 96, 0, 0.1);

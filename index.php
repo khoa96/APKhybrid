@@ -506,7 +506,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-category text-overflow">Action Gangstar New York Gangstar New York</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -616,7 +616,7 @@
 
         <div class="common-section-layout__content">
           <div class="common-flex-wrap-list__wrapper common-scroll-bar">
-            <div class="common-flex-wrap-list hot-game-list-wrapper">
+            <div class="common-flex-wrap-list">
               <!-- 3 TOP HOT GAMES -->
               <div class="top-hot-game__list">
                 <a href="#" class="common-app__item">
@@ -675,7 +675,7 @@
               <!-- 3 TOP HOT GAMES -->
 
               <!-- 9 OTHER HOT GAMES -->
-              <div class="other-hot-game__list hot-game-list-wrapper">
+              <div class="other-hot-game__list">
                 <a href="#" target="" title="" class="common-horizontal-app">
                   <div class="image-wrapper w-72">
                     <img src="./images/app-image-1.png" class="image-app" alt="">
@@ -822,11 +822,10 @@
 
         <div class="common-section-layout__content">
           <div class="common-flex-wrap-list__wrapper common-scroll-bar">
-            <div class="common-flex-wrap-list">
+            <div class="top-3-hot-app__wrapper">
               <!-- TOP 3 HOT APPS -->
               <!-- thêm class hot-top-1, hot-top-2, hot-top-3 để thay đổi màu nền. -->
-              <!-- 3 khối trên có layout khác với 9 khối dưới  -->
-              <a href="#" target="" title="" class="common-horizontal-hot-app hot-top-1">
+              <a href=" #" target="" title="" class="common-horizontal-hot-app hot-top-1">
                 <div class="left-content">
                   <div class="image-wrapper w-64">
                     <img src="./images/app-image-1.png" class="image-app" alt="">
@@ -834,7 +833,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York Gangstar New York</h3>
-                    <span class="app-category text-overflow">Action</span>
+                    <span class="app-category text-overflow">Action Action Gangstar New York</span>
                   </div>
                 </div>
                 <button class="btn-download">Download</button>
@@ -869,7 +868,7 @@
             <!-- TOP 3 HOT APPS -->
 
             <!-- 9 HOT APP OTHERS START-->
-            <div class="other-hot-game__list hot-game-list-wrapper">
+            <div class="other-hot-game__list">
               <a href="#" target="" title="" class="common-horizontal-app">
                 <div class="image-wrapper w-72">
                   <img src="./images/app-image-20.png" class="image-app" alt="">

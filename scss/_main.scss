@@ -47,17 +47,32 @@
   }
 }
 
+
+.other-hot-game__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+
+  @include mq(max_md) {
+    margin-top: 16px;
+    min-width: 900px;
+  }
+}
 .top-hot-game__list {
   width: 100%;
   display: flex;
 
   .common-app__item {
-    min-width: 376px;
-    max-width: calc((100% - 48px) / 3);
+    min-width: calc((100% - 72px) / 3);
+    max-width: calc((100% - 72px) / 3);
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
 
     @include mq(max_md) {
-      min-width: 315px;
-      max-width: 315px;
+      min-width: 280px;
+      max-width: 280px;
       margin-right: 16px;
     }
 
@@ -75,6 +90,10 @@
         object-fit: cover;
         border-radius: 20px 20px 0px 0px;
       }
+    }
+
+    .content-detail-block__wrapper {
+      padding: 10px;
     }
 
     &:first-child {
@@ -112,20 +131,9 @@
   }
 }
 
-.other-hot-game__list {
+
+
+
+.top-3-hot-app__wrapper {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 24px;
-
-  .common-horizontal-app {
-    min-width: 376px;
-    max-width: calc((100% - 48px) / 3);
-
-    @include mq(max_md) {
-      min-width: 315px;
-      max-width: 315px;
-      margin-right: 16px;
-    }
-  }
 }
-

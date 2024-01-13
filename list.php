@@ -428,11 +428,10 @@
 
         <div class="common-section-layout__content">
           <div class="common-flex-wrap-list__wrapper common-scroll-bar">
-            <div class="common-flex-wrap-list common-scroll-bar">
+            <div class="top-3-hot-app__wrapper">
               <!-- TOP 3 HOT APPS -->
               <!-- thêm class hot-top-1, hot-top-2, hot-top-3 để thay đổi màu nền. -->
-              <!-- 3 khối trên có layout khác với 9 khối dưới  -->
-              <a href="#" target="" title="" class="common-horizontal-hot-app hot-top-1">
+              <a href=" #" target="" title="" class="common-horizontal-hot-app hot-top-1">
                 <div class="left-content">
                   <div class="image-wrapper w-64">
                     <img src="./images/app-image-1.png" class="image-app" alt="">
@@ -440,7 +439,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action Gangstar New York </span>
                   </div>
                 </div>
                 <button class="btn-download">Download</button>
@@ -453,7 +452,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                   </div>
                 </div>
                 <button class="btn-download">Download</button>
@@ -466,7 +465,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                   </div>
                 </div>
                 <button class="btn-download">Download</button>
@@ -475,7 +474,7 @@
             <!-- TOP 3 HOT APPS -->
 
             <!-- 9 HOT APP OTHERS START-->
-            <div class="other-hot-game__list hot-game-list-wrapper">
+            <div class="other-hot-game__list">
               <a href="#" target="" title="" class="common-horizontal-app">
                 <div class="image-wrapper w-72">
                   <img src="./images/app-image-20.png" class="image-app" alt="">
@@ -483,11 +482,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -497,11 +493,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto: The Trilogy - The About Grand Theft</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -511,11 +504,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -525,11 +515,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -539,11 +526,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -553,11 +537,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran About Grand Theft Auto About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -567,11 +548,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -581,11 +559,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
               <a href="#" target="" title="" class="common-horizontal-app">
@@ -595,11 +570,8 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
-                  <div class="download-wrapper">
-                    <img src="./images/icon-download.png" class="icon-download" alt="">
-                    <span class="download-count">50M</span>
-                  </div>
+                  <span class="app-category text-overflow">Action</span>
+                  <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
             </div>
@@ -613,7 +585,7 @@
       <!-- PRODUCT ACTIVITY BLOCK START -->
       <div class="common-section-layout__wrapper mt-24 mb-24">
         <div class="common-section-layout__header">
-          <h2 class="common-section-layout__title">Discover</h2>
+          <h2 class="common-section-layout__title">Productivity Apps</h2>
           <a href="#" class="common-section-layout__btn-see-all" target="" title="">
             <span class="text">See all</span>
             <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
@@ -830,7 +802,7 @@
         <!-- TOP SEARCH GAME START -->
         <div class="common-section-layout__wrapper mt-24 mb-24">
           <div class="common-section-layout__header">
-            <h2 class="common-section-layout__title  common-medium__title">Trò chơi - Tìm kiếm thịnh hành</h2>
+            <h2 class="common-section-layout__title common-medium__title">Trò chơi - Tìm kiếm thịnh hành</h2>
           </div>
 
           <div class="common-section-layout__content">
