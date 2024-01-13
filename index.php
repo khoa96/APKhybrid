@@ -1342,7 +1342,7 @@
     ).slick({
       speed: 600,
       autoplaySpeed: 6000,
-      autoplay: false,
+      autoplay: true,
       infinite: true,
       swipe: true,
       fade: false,
