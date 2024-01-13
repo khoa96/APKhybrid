@@ -193,14 +193,32 @@
 .header .menu-for-mb-only {
   position: absolute;
   top: 56px;
-  left: 0;
-  width: 100%;
+  right: 0;
+  width: 90vw;
   height: auto;
   background-color: #fff;
   display: none;
   z-index: 99999999;
   padding: 16px;
   padding-top: 0;
+  height: 90vh;
+  max-height: 90vh;
+  overflow-y: scroll;
+  background-color: white;
+  z-index: 9999999;
+  /* width */
+  /* Track */
+  /* Handle */
+}
+.header .menu-for-mb-only::-webkit-scrollbar {
+  width: 5px;
+}
+.header .menu-for-mb-only::-webkit-scrollbar-track {
+  background: transparent;
+}
+.header .menu-for-mb-only::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
 }
 .header .menu-for-mb-only .list-authen-mb {
   display: flex;
@@ -650,3 +668,4 @@
   margin: 0px 10px;
 }
 
+/*# sourceMappingURL=header.css.map */

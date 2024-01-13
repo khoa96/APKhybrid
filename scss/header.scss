@@ -207,14 +207,37 @@
   .menu-for-mb-only {
     position: absolute;
     top: 56px;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 90vw;
     height: auto;
     background-color: #fff;
     display: none;
     z-index: 99999999;
     padding: 16px;
     padding-top: 0;
+    height: 90vh;
+    max-height: 90vh;
+    overflow-y: scroll;
+    background-color: #ffff;
+    z-index: 9999999;
+
+
+    /* width */
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 5px;
+    }
+
 
     .list-authen-mb {
       display: flex;
