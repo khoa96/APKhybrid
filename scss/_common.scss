@@ -601,6 +601,7 @@ form {
   max-width: 376px;
   display: flex;
   margin-bottom: 8px;
+  border: 1px solid red;
 
   &:nth-child(3n) {
     margin-right: 0;
@@ -608,13 +609,14 @@ form {
   @include mq(max_md) {
     width: calc((100% - 32px) / 3);
     margin-right: 16px;
-    min-width: 370px;
 
     &:nth-child(3n) {
       margin-right: 24px !important;
     }
   }
-
+  @include mq(max_xs) {
+    max-width: 315px;;
+  }
   .w-72 {
     min-width: 72px;
     max-width: 72px;
@@ -1431,4 +1433,11 @@ form {
 .common-medium__title {
   font-weight: normal;
   font-family: HarmonyOS Sans Medium !important;
+}
+
+.common-break-title__mb {
+
+  @include mq(max_md) {
+    max-width: 209px;
+  }
 }

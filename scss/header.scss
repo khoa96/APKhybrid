@@ -550,12 +550,6 @@
     height: 38px;
     object-fit: cover;
     margin-right: 8px;
-
-    @include mq(max_md) {
-      min-width: 36px;
-      max-width: 36px;
-      height: 36px;
-    }
   }
 
   .text-logo {
@@ -565,10 +559,6 @@
     font-weight: 700;
     color: $secondary-color;
     line-height: normal;
-
-    @include mq(max_md) {
-      font-size: 14px;
-    }
   }
 
   .text-high-light {

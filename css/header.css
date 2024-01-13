@@ -493,13 +493,6 @@
   object-fit: cover;
   margin-right: 8px;
 }
-@media only screen and (max-width: 991px) {
-  .logo-wrapper__common .icon-logo {
-    min-width: 36px;
-    max-width: 36px;
-    height: 36px;
-  }
-}
 .logo-wrapper__common .text-logo {
   font-size: 18px;
   font-family: HarmonyOS Sans Bold;
@@ -507,11 +500,6 @@
   font-weight: 700;
   color: #003044;
   line-height: normal;
-}
-@media only screen and (max-width: 991px) {
-  .logo-wrapper__common .text-logo {
-    font-size: 14px;
-  }
 }
 .logo-wrapper__common .text-high-light {
   color: #00AF46;

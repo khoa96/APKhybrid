@@ -204,7 +204,8 @@
       <!-- POPULAR GAME IN LAST 24 HOURS START -->
       <div class="common-section-layout__wrapper mt-24 mb-24">
         <div class="common-section-layout__header">
-          <h2 class="common-section-layout__title">Popular <span class="high-light">Games</span> In Last 24 Hours</h2>
+          <h2 class="common-section-layout__title common-break-title__mb">Popular <span class="high-light">Games</span>
+            In Last 24 Hours</h2>
           <a href="#" class="common-section-layout__btn-see-all" target="" title="">
             <span class="text">See all</span>
             <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
@@ -312,7 +313,8 @@
       <!-- POPULAR APPS IN LAST 24 HOURS END-->
       <div class="common-section-layout__wrapper mt-24 mb-24">
         <div class="common-section-layout__header">
-          <h2 class="common-section-layout__title">Popular <span class="high-light">Apps</span> In Last 24 Hours</h2>
+          <h2 class="common-section-layout__title common-break-title__mb">Popular <span class="high-light">Apps</span>
+            In Last 24 Hours</h2>
           <a href="#" class="common-section-layout__btn-see-all" target="" title="">
             <span class="text">See all</span>
             <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
@@ -420,7 +422,7 @@
       <!-- POPULAR ARTICLES IN LAST 24 HOURS START-->
       <div class="common-section-layout__wrapper mt-24 mb-24">
         <div class="common-section-layout__header">
-          <h2 class="common-section-layout__title">Popular Articles In Last 24 Hours</h2>
+          <h2 class="common-section-layout__title common-break-title__mb">Popular Articles In Last 24 Hours</h2>
           <a href="#" class="common-section-layout__btn-see-all" target="" title="">
             <span class="text">See all</span>
             <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
@@ -487,7 +489,7 @@
       <!-- PRE REGISTRATION GAME START -->
       <div class="common-section-layout__wrapper mt-24 mb-24">
         <div class="common-section-layout__header">
-          <h2 class="common-section-layout__title">Pre-registration Games</h2>
+          <h2 class="common-section-layout__title common-break-title__mb">Pre-registration Games</h2>
           <a href="#" class="common-section-layout__btn-see-all" target="" title="">
             <span class="text">See all</span>
             <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
@@ -504,7 +506,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -515,7 +517,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto: The Trilogy - The About Grand Theft</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -526,7 +528,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -537,7 +539,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -548,7 +550,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -559,7 +561,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran About Grand Theft Auto About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -570,7 +572,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -581,7 +583,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -592,7 +594,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="app-register">Pre-register: 105078</span>
                 </div>
               </a>
@@ -681,7 +683,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -695,7 +697,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Grand Theft Auto: The Trilogy - The About Grand Theft</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -709,7 +711,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -723,7 +725,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Grand Theft Auto</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -737,7 +739,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -751,7 +753,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran About Grand Theft Auto About Grand Theft Auto</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -765,7 +767,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -779,7 +781,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -793,7 +795,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                     <div class="download-wrapper">
                       <img src="./images/icon-download.png" class="icon-download" alt="">
                       <span class="download-count">50M</span>
@@ -832,7 +834,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                   </div>
                 </div>
                 <button class="btn-download">Download</button>
@@ -845,7 +847,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                   </div>
                 </div>
                 <button class="btn-download">Download</button>
@@ -858,7 +860,7 @@
 
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York Gangstar New York</h3>
-                    <span class="app-category">Action</span>
+                    <span class="app-category text-overflow">Action</span>
                   </div>
                 </div>
                 <button class="btn-download">Download</button>
@@ -875,7 +877,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -889,7 +891,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto: The Trilogy - The About Grand Theft</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -903,7 +905,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -917,7 +919,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -931,7 +933,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -945,7 +947,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran About Grand Theft Auto About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -959,7 +961,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -973,7 +975,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -987,7 +989,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <div class="download-wrapper">
                     <img src="./images/icon-download.png" class="icon-download" alt="">
                     <span class="download-count">50M</span>
@@ -1021,7 +1023,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1033,7 +1035,7 @@
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto: The Trilogy - The About Grand Theft
                   </h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1044,7 +1046,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1055,7 +1057,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1066,7 +1068,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1078,7 +1080,7 @@
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran About Grand Theft Auto About Grand Theft Auto
                   </h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1089,7 +1091,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1100,7 +1102,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1111,7 +1113,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1141,7 +1143,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1153,7 +1155,7 @@
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto: The Trilogy - The About Grand Theft
                   </h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1164,7 +1166,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">Gangstar New York</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1175,7 +1177,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Grand Theft Auto</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1186,7 +1188,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1198,7 +1200,7 @@
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran About Grand Theft Auto About Grand Theft Auto
                   </h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1209,7 +1211,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1220,7 +1222,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>
@@ -1231,7 +1233,7 @@
 
                 <div class="info-wrapper">
                   <h3 class="app-title text-overflow">About Gran</h3>
-                  <span class="app-category">Action</span>
+                  <span class="app-category text-overflow">Action</span>
                   <span class="version">5.14.6</span>
                 </div>
               </a>

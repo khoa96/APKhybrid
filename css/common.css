@@ -618,6 +618,7 @@ form {
   max-width: 376px;
   display: flex;
   margin-bottom: 8px;
+  border: 1px solid red;
 }
 .common-horizontal-app:nth-child(3n) {
   margin-right: 0;
@@ -626,10 +627,14 @@ form {
   .common-horizontal-app {
     width: calc((100% - 32px) / 3);
     margin-right: 16px;
-    min-width: 370px;
   }
   .common-horizontal-app:nth-child(3n) {
     margin-right: 24px !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .common-horizontal-app {
+    max-width: 315px;
   }
 }
 .common-horizontal-app .w-72 {
@@ -1403,6 +1408,12 @@ form {
 .common-medium__title {
   font-weight: normal;
   font-family: HarmonyOS Sans Medium !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .common-break-title__mb {
+    max-width: 209px;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */

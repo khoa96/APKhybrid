@@ -131,7 +131,7 @@
           <!-- FREE FIRE SCREENSHOTS START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Free Fire Screenshots</h2>
+              <h2 class="common-section-layout__title common-medium__title">Free Fire Screenshots</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -165,7 +165,7 @@
           <!-- OLD VERSION START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Old Versions of Free Fire Max</h2>
+              <h2 class="common-section-layout__title common-medium__title">Old Versions of Free Fire Max</h2>
               <a href="#" class="common-section-layout__btn-see-all" target="" title="">
                 <span class="text">See all</span>
                 <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
@@ -265,7 +265,7 @@
           <!-- ABOUT FREE FIRE MAX START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">About Free Fire Max</h2>
+              <h2 class="common-section-layout__title About Free Fire Max">About Free Fire Max</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -378,7 +378,7 @@
           <!-- FREE FIRE MAX ARTICLES START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Free Fire Max Articles</h2>
+              <h2 class="common-section-layout__title common-medium__title">Free Fire Max Articles</h2>
               <a href="#" class="common-section-layout__btn-see-all" target="" title="">
                 <span class="text">See all</span>
                 <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
@@ -457,7 +457,7 @@
           <!-- FREE FIRE MAX FAQ START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Free Fire Max FAQ</h2>
+              <h2 class="common-section-layout__title common-medium__title">Free Fire Max FAQ</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -500,7 +500,7 @@
           <!-- DISCOVER START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Discover</h2>
+              <h2 class="common-section-layout__title common-medium__title">Discover</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -577,7 +577,7 @@
           <!-- DISCOVER START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Get more from Cognosphere Co.Ltd</h2>
+              <h2 class="common-section-layout__title common-medium__title">Get more from Cognosphere Co.Ltd</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -613,7 +613,7 @@
         <!-- RIGHT SIDEBAR START -->
         <div class=" common-layout__right">
           <div class="common-right-sidebar-block__wrapper">
-            <h3 class="common-right-sidebar-block__title">App support</h3>
+            <h3 class="common-right-sidebar-block__title common-medium__title">App support</h3>
             <div class="common-right-sidebar-block__content">
               <div class="list-app-support">
                 <div class="list-app-support__item">
@@ -650,7 +650,7 @@
           </div>
 
           <div class="common-right-sidebar-block__wrapper mt-24">
-            <h3 class="common-right-sidebar-block__title">Similar</h3>
+            <h3 class="common-right-sidebar-block__title common-medium__title">Similar</h3>
             <div class="common-right-sidebar-block__content">
               <div class="list-similar">
                 <a href="#" target="" title="" class="common-horizontal-app">
