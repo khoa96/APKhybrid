@@ -618,7 +618,6 @@ form {
   max-width: 376px;
   display: flex;
   margin-bottom: 8px;
-  border: 1px solid red;
 }
 .common-horizontal-app:nth-child(3n) {
   margin-right: 0;
