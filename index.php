@@ -219,18 +219,19 @@
                 <h4 class="app-title">Avatar World: City Life</h4>
                 <span class="category">Strategy</span>
               </div>
+              <!-- để tạo stroke của các số vui lòng thêm thuộc tính data-text="number  ví dụ số 1 thì thêm data-text="1", số 2 thì thêm data-text="2"-->
               <div class="common-number-layout">
-                <span class="number first-number">1</span>
+                <span class="number first-number" data-text="1">1</span>
               </div>
             </a>
-            <a href="#" target="" title="" class="common-vertical-app">
+            <a href=" #" target="" title="" class="common-vertical-app">
               <img src="./images/app-image-19.png" class="image-app" alt="">
               <div class="app-info-wrapper">
                 <h4 class="app-title">Among Us</h4>
                 <span class="category">Action</span>
               </div>
               <div class="common-number-layout">
-                <span class="number second-number">2</span>
+                <span class="number second-number" data-text="2">2</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -240,7 +241,7 @@
                 <span class="category">Role Playing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number third-number">3</span>
+                <span class="number third-number" data-text="3">3</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -250,7 +251,7 @@
                 <span class="category">Strategy</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">4</span>
+                <span class="number other-number" data-text="4">4</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -260,7 +261,7 @@
                 <span class="category">Entertainment</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">5</span>
+                <span class="number other-number" data-text="5">5</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -270,7 +271,7 @@
                 <span class="category">Strategy</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">6</span>
+                <span class="number other-number" data-text="6">6</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -280,7 +281,7 @@
                 <span class="category">Car racing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">7</span>
+                <span class="number other-number" data-text="7">7</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -290,7 +291,7 @@
                 <span class="category">Car racing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">8</span>
+                <span class="number other-number" data-text="8">8</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -300,7 +301,7 @@
                 <span class="category">Car racing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">9</span>
+                <span class="number other-number" data-text="9">9</span>
               </div>
             </a>
           </div>
@@ -326,8 +327,9 @@
                 <h4 class="app-title">Avatar World: City Life</h4>
                 <span class="category">Strategy</span>
               </div>
+              <!-- để tạo stroke của các số vui lòng thêm thuộc tính data-text="number  ví dụ số 1 thì thêm data-text="1", số 2 thì thêm data-text="2"-->
               <div class="common-number-layout">
-                <span class="number first-number">1</span>
+                <span class="number first-number" data-text="1">1</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -337,7 +339,7 @@
                 <span class="category">Action</span>
               </div>
               <div class="common-number-layout">
-                <span class="number second-number">2</span>
+                <span class="number second-number" data-text="2">2</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -347,7 +349,7 @@
                 <span class="category">Role Playing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number third-number">3</span>
+                <span class="number third-number" data-text="3">3</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -357,7 +359,7 @@
                 <span class="category">Strategy</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">4</span>
+                <span class="number other-number" data-text="4">4</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -367,7 +369,7 @@
                 <span class="category">Entertainment</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">5</span>
+                <span class="number other-number" data-text="5">5</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -377,7 +379,7 @@
                 <span class="category">Strategy</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">6</span>
+                <span class="number other-number" data-text="6">6</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -387,7 +389,7 @@
                 <span class="category">Car racing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">7</span>
+                <span class="number other-number" data-text="7">7</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -397,7 +399,7 @@
                 <span class="category">Car racing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">8</span>
+                <span class="number other-number" data-text="8">8</span>
               </div>
             </a>
             <a href="#" target="" title="" class="common-vertical-app">
@@ -407,7 +409,7 @@
                 <span class="category">Car racing</span>
               </div>
               <div class="common-number-layout">
-                <span class="number other-number">9</span>
+                <span class="number other-number" data-text="9">9</span>
               </div>
             </a>
           </div>

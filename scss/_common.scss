@@ -441,22 +441,54 @@ form {
       right: -8px;
     }
 
+
     .number {
       font-family: HarmonyOS Sans Black;
       font-size: 64px;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
-      filter: drop-shadow(-4px 0 0 #fff) drop-shadow(4px 0 0 #fff)
-        drop-shadow(0 -4px 0 #fff) drop-shadow(0 4px 0 #fff);
+      /* Width and color values */
+      position: relative;
+
+      &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: attr(data-text);
+        width: 100%;
+        height: 100%;
+        z-index:  -1;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        -webkit-text-stroke: 8px #fff;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: fill 0.5s infinite alternate;
+      }
 
       @include mq(max_md) {
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        filter: drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff)
-          drop-shadow(0 -3px 0 #fff) drop-shadow(0 3px 0 #fff);
+        &::after {
+          position: absolute;
+        top: 0;
+        left: 0;
+        content: attr(data-text);
+        width: 100%;
+        height: 100%;
+        z-index:  -1;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        -webkit-text-stroke: 6px #fff;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: fill 0.5s infinite alternate;
+        }
       }
     }
 
@@ -866,7 +898,7 @@ form {
 
   &__left {
     width: calc(100% - 288px - 24px);
-      @include mq(max_md) {
+    @include mq(max_md) {
       width: 100%;
     }
   }
