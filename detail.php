@@ -265,7 +265,7 @@
           <!-- ABOUT FREE FIRE MAX START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title About Free Fire Max">About Free Fire Max</h2>
+              <h2 class="common-section-layout__title common-medium__title">About Free Fire Max</h2>
             </div>
 
             <div class="common-section-layout__content">
