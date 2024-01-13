@@ -777,11 +777,7 @@
         <!-- TOP SEARCH APP START -->
         <div class="common-section-layout__wrapper mt-24 mb-24">
           <div class="common-section-layout__header">
-            <h2 class="common-section-layout__title">Ứng dụng - Tìm kiếm thịnh hành</h2>
-            <a href="#" class="common-section-layout__btn-see-all" target="" title="">
-              <span class="text">See all</span>
-              <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
-            </a>
+            <h2 class="common-section-layout__title  common-medium__title">Ứng dụng - Tìm kiếm thịnh hành</h2>
           </div>
 
           <div class="common-section-layout__content">
@@ -834,11 +830,7 @@
         <!-- TOP SEARCH GAME START -->
         <div class="common-section-layout__wrapper mt-24 mb-24">
           <div class="common-section-layout__header">
-            <h2 class="common-section-layout__title">Trò chơi - Tìm kiếm thịnh hành</h2>
-            <a href="#" class="common-section-layout__btn-see-all" target="" title="">
-              <span class="text">See all</span>
-              <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
-            </a>
+            <h2 class="common-section-layout__title  common-medium__title">Trò chơi - Tìm kiếm thịnh hành</h2>
           </div>
 
           <div class="common-section-layout__content">

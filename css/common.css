@@ -1400,4 +1400,9 @@ form {
   overflow: hidden;
 }
 
+.common-medium__title {
+  font-weight: normal;
+  font-family: HarmonyOS Sans Medium !important;
+}
+
 /*# sourceMappingURL=common.css.map */

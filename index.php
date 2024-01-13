@@ -628,7 +628,7 @@
                       </div>
                       <div class="right-content">
                         <h3 class="title text-overflow">Black Clover M</h3>
-                        <p class="description">Role Playing</p>
+                        <p class="description text-overflow">Role Playing Role Playing Role Playing</p>
                       </div>
                     </div>
                     <button class="btn-download">Download</button>
@@ -663,7 +663,7 @@
                       </div>
                       <div class="right-content">
                         <h3 class="title text-overflow">CookieRun: Kingdom</h3>
-                        <p class="description text-overflow">Casual </p>
+                        <p class="description text-overflow">Casual Role Playing Role Playing</p>
                       </div>
                     </div>
                     <button class="btn-download">Download</button>
@@ -682,7 +682,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -693,7 +696,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Grand Theft Auto: The Trilogy - The About Grand Theft</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -704,7 +710,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">Gangstar New York</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -715,7 +724,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Grand Theft Auto</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -726,7 +738,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -737,7 +752,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran About Grand Theft Auto About Grand Theft Auto</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -748,7 +766,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -759,7 +780,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
                 <a href="#" target="" title="" class="common-horizontal-app">
@@ -770,7 +794,10 @@
                   <div class="info-wrapper">
                     <h3 class="app-title text-overflow">About Gran</h3>
                     <span class="app-category">Action</span>
-                    <span class="app-register">Pre-register: 105078</span>
+                    <div class="download-wrapper">
+                      <img src="./images/icon-download.png" class="icon-download" alt="">
+                      <span class="download-count">50M</span>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -1221,11 +1248,7 @@
         <!-- TOP SEARCH APP START -->
         <div class="common-section-layout__wrapper mt-24 mb-24">
           <div class="common-section-layout__header">
-            <h2 class="common-section-layout__title">Ứng dụng - Tìm kiếm thịnh hành</h2>
-            <a href="#" class="common-section-layout__btn-see-all" target="" title="">
-              <span class="text">See all</span>
-              <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
-            </a>
+            <h2 class="common-section-layout__title common-medium__title">Ứng dụng - Tìm kiếm thịnh hành</h2>
           </div>
 
           <div class="common-section-layout__content">
@@ -1268,7 +1291,6 @@
                   <span class="text-name">Google camera</span>
                 </a>
 
-
               </div>
             </div>
           </div>
@@ -1278,11 +1300,7 @@
         <!-- TOP SEARCH GAME START -->
         <div class="common-section-layout__wrapper mt-24 mb-24">
           <div class="common-section-layout__header">
-            <h2 class="common-section-layout__title">Trò chơi - Tìm kiếm thịnh hành</h2>
-            <a href="#" class="common-section-layout__btn-see-all" target="" title="">
-              <span class="text">See all</span>
-              <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
-            </a>
+            <h2 class="common-section-layout__title common-medium__title">Trò chơi - Tìm kiếm thịnh hành</h2>
           </div>
           <div class="common-section-layout__content">
             <div class="common-flex-wrap-list__wrapper common-scroll-bar">
@@ -1323,8 +1341,6 @@
                   <img src="./images/app-image-28.png" class="image-app" alt="">
                   <span class="text-name">Google camera</span>
                 </a>
-
-
               </div>
             </div>
           </div>

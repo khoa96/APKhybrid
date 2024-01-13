@@ -1117,11 +1117,7 @@
         <!-- TOP SEARCH APP START -->
         <div class="common-section-layout__wrapper mt-24 mb-24">
           <div class="common-section-layout__header">
-            <h2 class="common-section-layout__title">Ứng dụng - Tìm kiếm thịnh hành</h2>
-            <a href="#" class="common-section-layout__btn-see-all" target="" title="">
-              <span class="text">See all</span>
-              <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
-            </a>
+            <h2 class="common-section-layout__title  common-medium__title">Ứng dụng - Tìm kiếm thịnh hành</h2>
           </div>
 
           <div class="common-section-layout__content">
@@ -1174,11 +1170,7 @@
         <!-- TOP SEARCH GAME START -->
         <div class="common-section-layout__wrapper mt-24 mb-24">
           <div class="common-section-layout__header">
-            <h2 class="common-section-layout__title">Trò chơi - Tìm kiếm thịnh hành</h2>
-            <a href="#" class="common-section-layout__btn-see-all" target="" title="">
-              <span class="text">See all</span>
-              <img src="./images/icon-green-arrow.png" class="icon-arrow" alt="">
-            </a>
+            <h2 class="common-section-layout__title  common-medium__title">Trò chơi - Tìm kiếm thịnh hành</h2>
           </div>
 
           <div class="common-section-layout__content">
@@ -1324,24 +1316,24 @@
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>  <script>
-    $(function () {
-      // PC
-      var sliderBanner = $(
-        ".slider-banner-block__wrapper .slider-banner-block__list"
-      ).slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: true,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  $(function() {
+    // PC
+    var sliderBanner = $(
+      ".slider-banner-block__wrapper .slider-banner-block__list"
+    ).slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: true,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
@@ -1354,13 +1346,13 @@
             autoplay: true,
           },
         },
-        ],
-      });
-
-      $(".slider-banner-block__wrapper .btn-next").on("click", function () {
-        sliderBanner.slick("next");
-      });
+      ],
     });
+
+    $(".slider-banner-block__wrapper .btn-next").on("click", function() {
+      sliderBanner.slick("next");
+    });
+  });
   </script>
 
 </body>
