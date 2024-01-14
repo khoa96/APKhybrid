@@ -1381,7 +1381,7 @@ form {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 4px;
     }
   }
 
@@ -1408,6 +1408,10 @@ form {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+
+    &:hover {
+      color: $green-color;
+    }
   }
 
   &__description {
