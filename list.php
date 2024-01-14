@@ -6,6 +6,9 @@
     <div class="container">
       <!-- SLIDER BANNER BLOCK START -->
       <div class="slider-banner-block__wrapper">
+        <button class="btn btn-prev">
+          <img src="./images/icon-arrow-mb.png" class="icon-arrow" alt="">
+        </button>
         <div class="slider-banner-block__list">
           <a href="#" class="common-app__item">
             <div class="image-block__wrapper">
@@ -893,6 +896,10 @@
 
     $(".slider-banner-block__wrapper .btn-next").on("click", function() {
       sliderBanner.slick("next");
+      $(".slider-banner-block__wrapper .btn-prev").show()
+    });
+    $(".slider-banner-block__wrapper .btn-prev").on("click", function() {
+      sliderBanner.slick("prev");
     });
   });
   </script>

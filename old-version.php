@@ -8,7 +8,7 @@
       <div class="common-list-category">
         <a href="#" target="">
           <div class="category-item">
-            <span>Home</span>
+            <span class="text-overflow">Home</span>
           </div>
         </a>
         <div class="arrow">
@@ -21,7 +21,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Games</span>
+            <span class="text-overflow">Games</span>
           </div>
         </a>
         <div class="arrow">
@@ -34,7 +34,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Action</span>
+            <span class="text-overflow">Action</span>
           </div>
         </a>
         <div class="arrow">
@@ -47,7 +47,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Free Fire MAX</span>
+            <span class="text-overflow">Free Fire MAX</span>
           </div>
         </a>
         <div class="arrow">
@@ -60,7 +60,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>versions</span>
+            <span class="text-overflow">versions</span>
           </div>
         </a>
       </div>

@@ -8,7 +8,7 @@
       <div class="common-list-category">
         <a href="#" target="">
           <div class="category-item">
-            <span>Home</span>
+            <span class="text-overflow">Home</span>
           </div>
         </a>
         <div class="arrow">
@@ -19,7 +19,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Search</span>
+            <span class="text-overflow">Search</span>
           </div>
         </a>
       </div>
@@ -232,9 +232,9 @@
   </div>
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      $("#tabs").tabs();
-    });
+  $(function() {
+    $("#tabs").tabs();
+  });
   </script>
 
 

@@ -8,7 +8,7 @@
       <div class="common-list-category">
         <a href="#" target="">
           <div class="category-item">
-            <span>Home</span>
+            <span class="text-overflow">Home</span>
           </div>
         </a>
         <div class="arrow">
@@ -19,7 +19,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Articles</span>
+            <span span class="text-overflow">Articles</span>
           </div>
         </a>
         <div class="arrow">
@@ -30,7 +30,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Throne of Three Kingdoms Free Redeem Codes in December 2023</span>
+            <span class="text-overflow">Throne of Three Kingdoms Free Redeem Codes in December 2023</span>
           </div>
         </a>
       </div>
@@ -103,6 +103,9 @@
             <div class="common-section-layout__content">
 
               <div class="slider-banner-block__wrapper">
+                <button class="btn btn-prev">
+                  <img src="./images/icon-arrow-mb.png" class="icon-arrow" alt="">
+                </button>
                 <div class="slider-banner-block__list">
                   <a href="#" target="" title="" class="common-vertical-news">
                     <div class="news-image-wrapper">
@@ -307,6 +310,10 @@
 
     $(".slider-banner-block__wrapper .btn-next").on("click", function() {
       sliderBanner.slick("next");
+      $(".slider-banner-block__wrapper .btn-prev").show()
+    });
+    $(".slider-banner-block__wrapper .btn-prev").on("click", function() {
+      sliderBanner.slick("prev");
     });
   });
   </script>

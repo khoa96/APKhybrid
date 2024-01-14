@@ -8,7 +8,7 @@
       <div class="common-list-category">
         <a href="#" target="">
           <div class="category-item">
-            <span>Home</span>
+            <span class="text-overflow">Home</span>
           </div>
         </a>
         <div class="arrow">
@@ -19,7 +19,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Discover</span>
+            <span class="text-overflow">Discover</span>
           </div>
         </a>
       </div>
