@@ -81,10 +81,64 @@
 
         <!-- RIGHT SIDEBAR START -->
         <div class="common-layout__right">
-          <div class="common-right-sidebar-block__wrapper">
-            <h3 class="common-right-sidebar-block__title">Latest new</h3>
-            <div class="common-right-sidebar-block__content">
+          <div class="common-right-sidebar__freeze-scroll">
+            <h3 class=" common-right-sidebar__title common-medium__title">Latest new</h3>
+            <div class="common-right-sidebar__content common-scroll-bar max-660">
               <div class="list-news__wrapper">
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-1.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-2.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-3.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character Reverse: 1999 Version 1.2 top New Character Reverse: 1999 Version
+                      1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-1.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-2.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-3.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character Reverse: 1999 Version 1.2 top New Character Reverse: 1999 Version
+                      1.2 top New Character </h3>
+                  </div>
+                </a>
                 <a href="#" target="" title="" class="common-news-item small-news">
                   <div class="common-news-item__image-wrapper">
                     <img src="./images/news-1.png" class="common-news-item__image" alt="">
@@ -115,6 +169,8 @@
               </div>
             </div>
           </div>
+
+
         </div>
         <!-- RIGHT SIDEBAR END-->
       </div>

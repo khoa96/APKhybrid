@@ -649,9 +649,9 @@
 
           </div>
 
-          <div class="common-right-sidebar-block__wrapper mt-24">
-            <h3 class="common-right-sidebar-block__title common-medium__title">Similar</h3>
-            <div class="common-right-sidebar-block__content">
+          <div class="common-right-sidebar__freeze-scroll mt-24">
+            <h3 class="common-right-sidebar__title common-medium__title">Similar</h3>
+            <div class="common-right-sidebar__content common-scroll-bar max-660">
               <div class="list-similar">
                 <a href="#" target="" title="" class="common-horizontal-app">
                   <div class="image-wrapper w-56">
@@ -699,9 +699,80 @@
                       <span class="app-category">Action</span>
                   </div>
                 </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-4.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-5.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-6.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-7.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-8.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-9.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-10.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-13.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
               </div>
             </div>
-
           </div>
         </div>
         <!-- RIGHT SIDEBAR END-->

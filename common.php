@@ -137,3 +137,11 @@
     <button class="btn-download">Download</button>
   </div>
 </a>
+
+<!-- common freeze scroll list -->
+<div class="common-right-sidebar__freeze-scroll mt-24">
+  <h3 class=" common-right-sidebar__title common-medium__title">Games</h3>
+  <div class="common-right-sidebar__content common-scroll-bar max-350">
+    list content
+  </div>
+</div>

@@ -2,7 +2,7 @@
 
 <body>
   <?php include "templates/header.php"; ?>
-  <div class="detail-page__wrapper">
+  <div class="detail-page__wrapper old-version-page__wrapper">
     <div class="container">
       <!-- CATEGORY LIST START -->
       <div class="common-list-category">
@@ -105,7 +105,7 @@
           <!-- OLD VERSION START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Old Versions of Free Fire Max</h2>
+              <h2 class="common-section-layout__title common-medium__title ">Old Versions of Free Fire Max</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -231,7 +231,7 @@
           <!-- DISCOVER START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Discover</h2>
+              <h2 class="common-section-layout__title common-medium__title">Discover</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -307,7 +307,7 @@
           <!-- GET MORE START -->
           <div class="common-section-layout__wrapper mt-24 mb-24">
             <div class="common-section-layout__header">
-              <h2 class="common-section-layout__title">Get more from Cognosphere Co.Ltd</h2>
+              <h2 class="common-section-layout__title common-medium__title ">Get more from Cognosphere Co.Ltd</h2>
             </div>
 
             <div class="common-section-layout__content">
@@ -342,9 +342,9 @@
         <!-- RIGHT SIDEBAR START -->
         <div class=" common-layout__right">
 
-          <div class="common-right-sidebar-block__wrapper mt-24">
-            <h3 class="common-right-sidebar-block__title">Similar</h3>
-            <div class="common-right-sidebar-block__content">
+          <div class="common-right-sidebar__freeze-scroll">
+            <h3 class="common-right-sidebar__title common-medium__title">Similar</h3>
+            <div class="common-right-sidebar__content common-scroll-bar max-660">
               <div class="list-similar">
                 <a href="#" target="" title="" class="common-horizontal-app">
                   <div class="image-wrapper w-56">
@@ -388,18 +388,90 @@
                     <img src="./images/app-image-5.png" class="image-app" alt="">
                   </div>
                   <div class="info-wrapper">
-                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star </h3>
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-4.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-5.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-6.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-7.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-8.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-9.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-10.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star Gang star Gang star Gang star /h3>
+                      <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-13.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
                     <span class="app-category">Action</span>
                   </div>
                 </a>
               </div>
             </div>
-
           </div>
 
-          <div class="common-right-sidebar-block__wrapper mt-24">
-            <h3 class="common-right-sidebar-block__title">Games</h3>
-            <div class="common-right-sidebar-block__content">
+
+          <div class="common-right-sidebar__freeze-scroll games-right-sidebar__block mt-24">
+            <h3 class=" common-right-sidebar__title common-medium__title">Games</h3>
+            <div class="common-right-sidebar__content common-scroll-bar max-350">
               <div class="list-game__right-side-bar">
                 <a href="#" target="" title="" class="game-item">
                   <img src="./images/icon-game.png" class="icon-image" alt="">
@@ -415,15 +487,77 @@
                 </a>
                 <a href="#" target="" title="" class="game-item">
                   <img src="./images/icon-game.png" class="icon-image" alt="">
-                  <span class="text text-overflow">Công cụ</span>
+                  <span class="text text-overflow">Công cụ Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Công cụ Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Avatar World</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
                 </a>
                 <a href="#" target="" title="" class="game-item">
                   <img src="./images/icon-game.png" class="icon-image" alt="">
                   <span class="text text-overflow">Công cụ</span>
                 </a>
-              </div>
-            </div>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Avatar World</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Công cụ</span>
+                </a>
 
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Avatar World</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Công cụ</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Avatar World</span>
+                </a>
+                <a href="#" target="" title="" class="game-item">
+                  <img src="./images/icon-game.png" class="icon-image" alt="">
+                  <span class="text text-overflow">Free Fire Screenshots</span>
+                </a>
+
+              </div>
+
+            </div>
           </div>
         </div>
         <!-- RIGHT SIDEBAR END-->
@@ -433,24 +567,24 @@
   </div>
   <?php include "templates/footer.php"; ?>
   <script>
-    $(function () {
-      // PC
-      var sliderBanner = $(
-        ".slider-banner-block__wrapper .slider-banner-block__list"
-      ).slick({
-        speed: 600,
-        autoplaySpeed: 6000,
-        autoplay: false,
-        infinite: true,
-        swipe: true,
-        fade: false,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        variableWidth: true,
-        responsive: [{
+  $(function() {
+    // PC
+    var sliderBanner = $(
+      ".slider-banner-block__wrapper .slider-banner-block__list"
+    ).slick({
+      speed: 600,
+      autoplaySpeed: 6000,
+      autoplay: false,
+      infinite: true,
+      swipe: true,
+      fade: false,
+      dots: false,
+      arrows: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
@@ -464,13 +598,13 @@
             dots: true,
           },
         },
-        ],
-      });
-
-      $(".slider-banner-block__wrapper .btn-next").on("click", function () {
-        sliderBanner.slick("next");
-      });
+      ],
     });
+
+    $(".slider-banner-block__wrapper .btn-next").on("click", function() {
+      sliderBanner.slick("next");
+    });
+  });
   </script>
 
 </body>

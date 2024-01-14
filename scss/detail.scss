@@ -56,6 +56,7 @@
       min-width: 100%;
       max-width: 100%;
       margin-bottom: 12px;
+      margin-right: 0;
 
       .app-category {
         margin-bottom: 0;
@@ -689,6 +690,7 @@
       min-width: 100%;
       max-width: 100%;
       margin-bottom: 12px;
+      margin-right: 0;
 
       .app-category {
         margin-bottom: 0;
@@ -700,5 +702,67 @@
         }
       }
     }
+  }
+}
+
+// custome old version style.
+.old-version-page__wrapper {
+  .common-layout__wrapper {
+    @include mq(max_md) {
+      flex-direction: column;
+    }
+    .common-layout__right {
+      .common-horizontal-app {
+        margin-right: 0;
+      }
+      @include mq(max_md) {
+        margin-left: 0;
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+
+        .games-right-sidebar__block {
+          display: none;
+        } 
+        .list-similar {
+          display: flex;
+          flex-wrap: nowrap;
+
+          .common-horizontal-app {
+            width: fit-content;
+            min-width: 80px;
+            max-width: 80px;
+            flex-direction: column;
+            margin-bottom: 0;
+            margin-right: 16px;
+
+            &:nth-child(3n) {
+              margin-right: 16px;
+            }
+
+            .w-56 {
+              min-width: 80px;
+              max-width: 80px;
+              height: 80px;
+            }
+
+            .image-wrapper {
+              margin-right: 0;
+              margin-bottom: 8px;
+            }
+            .info-wrapper  {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+
+    .list-similar{
+      max-width: 100%;
+      overflow-y: auto;
+    }
+
   }
 }

@@ -84,6 +84,7 @@
   min-width: 100%;
   max-width: 100%;
   margin-bottom: 12px;
+  margin-right: 0;
 }
 .detail-page__wrapper .list-similar .common-horizontal-app .app-category {
   margin-bottom: 0;
@@ -659,12 +660,65 @@
   min-width: 100%;
   max-width: 100%;
   margin-bottom: 12px;
+  margin-right: 0;
 }
 .see-all-page__wrapper .list-similar .common-horizontal-app .app-category {
   margin-bottom: 0;
 }
 .see-all-page__wrapper .list-similar .common-horizontal-app:last-child .info-wrapper {
   border-bottom: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .old-version-page__wrapper .common-layout__wrapper {
+    flex-direction: column;
+  }
+}
+.old-version-page__wrapper .common-layout__wrapper .common-layout__right .common-horizontal-app {
+  margin-right: 0;
+}
+@media only screen and (max-width: 991px) {
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right .games-right-sidebar__block {
+    display: none;
+  }
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right .list-similar {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right .list-similar .common-horizontal-app {
+    width: fit-content;
+    min-width: 80px;
+    max-width: 80px;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right .list-similar .common-horizontal-app:nth-child(3n) {
+    margin-right: 16px;
+  }
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right .list-similar .common-horizontal-app .w-56 {
+    min-width: 80px;
+    max-width: 80px;
+    height: 80px;
+  }
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right .list-similar .common-horizontal-app .image-wrapper {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .old-version-page__wrapper .common-layout__wrapper .common-layout__right .list-similar .common-horizontal-app .info-wrapper {
+    border-bottom: none;
+  }
+}
+.old-version-page__wrapper .common-layout__wrapper .list-similar {
+  max-width: 100%;
+  overflow-y: auto;
 }
 
 /*# sourceMappingURL=detail.css.map */

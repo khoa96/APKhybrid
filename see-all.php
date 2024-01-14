@@ -195,9 +195,9 @@
 
         <!-- RIGHT SIDEBAR START -->
         <div class="common-layout__right">
-          <div class="common-right-sidebar-block__wrapper">
-            <h3 class="common-right-sidebar-block__title">Top new games</h3>
-            <div class="common-right-sidebar-block__content">
+          <div class="common-right-sidebar__freeze-scroll">
+            <h3 class=" common-right-sidebar__title common-medium__title">Top new games</h3>
+            <div class="common-right-sidebar__content common-scroll-bar max-660">
               <div class="list-similar">
                 <a href="#" target="" title="" class="common-horizontal-app">
                   <div class="image-wrapper w-56">
@@ -245,9 +245,54 @@
                     <span class="app-category">Action</span>
                   </div>
                 </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-7.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gangstar New York</h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-8.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star New York Gang star New York Gang star New
+                      York</h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-9.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-10.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-horizontal-app">
+                  <div class="image-wrapper w-56">
+                    <img src="./images/app-image-12.png" class="image-app" alt="">
+                  </div>
+                  <div class="info-wrapper">
+                    <h3 class="app-title text-overflow">Gang star </h3>
+                    <span class="app-category">Action</span>
+                  </div>
+                </a>
               </div>
             </div>
-
           </div>
         </div>
         <!-- RIGHT SIDEBAR END-->
