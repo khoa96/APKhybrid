@@ -222,9 +222,14 @@
 .search-page__wrapper .list-app .common-app__item:nth-child(3n) {
   margin-right: 0;
 }
+@media (max-width: 1200px) {
+  .search-page__wrapper .list-app .common-app__item:nth-child(3n) {
+    margin-right: 24px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .search-page__wrapper .list-app .common-app__item {
-    margin-right: 24px !important;
+    margin-right: 24px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -234,7 +239,7 @@
     margin-right: 0 !important;
   }
 }
-@media (max-width: 343px) {
+@media (max-width: 500px) {
   .search-page__wrapper .list-app .common-app__item {
     min-width: 100%;
     max-width: 100%;
@@ -380,3 +385,4 @@
   list-style-type: disc;
 }
 
+/*# sourceMappingURL=news.css.map */

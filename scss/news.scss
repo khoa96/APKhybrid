@@ -239,8 +239,14 @@
         margin-right: 0;
       }
 
+      @media (max-width: 1200px) {
+        &:nth-child(3n) {
+          margin-right: 24px;
+        }
+      }
+
       @include mq(max_md) {
-        margin-right: 24px !important;
+        margin-right: 24px;
       }
 
       @include mq(max_xs) {
@@ -249,7 +255,7 @@
         margin-right: 0 !important;
       }
 
-      @media (max-width: 343px) {
+      @media (max-width: 500px) {
         min-width: 100%;
         max-width: 100%;
       }
