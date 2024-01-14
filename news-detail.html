@@ -348,7 +348,7 @@
       <div class="common-list-category">
         <a href="#" target="">
           <div class="category-item">
-            <span>Home</span>
+            <span class="text-overflow">Home</span>
           </div>
         </a>
         <div class="arrow">
@@ -359,7 +359,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Articles</span>
+            <span span class="text-overflow">Articles</span>
           </div>
         </a>
         <div class="arrow">
@@ -370,7 +370,7 @@
         </div>
         <a href="#" target="">
           <div class="category-item">
-            <span>Throne of Three Kingdoms Free Redeem Codes in December 2023</span>
+            <span class="text-overflow">Throne of Three Kingdoms Free Redeem Codes in December 2023</span>
           </div>
         </a>
       </div>
@@ -443,6 +443,9 @@
             <div class="common-section-layout__content">
 
               <div class="slider-banner-block__wrapper">
+                <button class="btn btn-prev">
+                  <img src="./images/icon-arrow-mb.png" class="icon-arrow" alt="">
+                </button>
                 <div class="slider-banner-block__list">
                   <a href="#" target="" title="" class="common-vertical-news">
                     <div class="news-image-wrapper">
@@ -516,9 +519,9 @@
 
         <!-- RIGHT SIDEBAR START -->
         <div class="common-layout__right">
-          <div class="common-right-sidebar-block__wrapper">
-            <h3 class="common-right-sidebar-block__title">Latest new</h3>
-            <div class="common-right-sidebar-block__content">
+          <div class="common-right-sidebar__freeze-scroll">
+            <h3 class=" common-right-sidebar__title common-medium__title">Latest new</h3>
+            <div class="common-right-sidebar__content common-scroll-bar max-660">
               <div class="list-news__wrapper">
                 <a href="#" target="" title="" class="common-news-item small-news">
                   <div class="common-news-item__image-wrapper">
@@ -553,6 +556,52 @@
                   </div>
                   <div class="common-news-item__info-wrapper">
                     <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-2.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-3.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character Reverse: 1999 Version 1.2 top New Character Reverse: 1999 Version
+                      1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-1.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-2.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character </h3>
+                  </div>
+                </a>
+                <a href="#" target="" title="" class="common-news-item small-news">
+                  <div class="common-news-item__image-wrapper">
+                    <img src="./images/news-3.png" class="common-news-item__image" alt="">
+                  </div>
+                  <div class="common-news-item__info-wrapper">
+                    <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 top New Character Reverse: 1999
+                      Version 1.2 top New Character Reverse: 1999 Version 1.2 top New Character Reverse: 1999 Version
+                      1.2 top New Character </h3>
                   </div>
                 </a>
               </div>
@@ -691,6 +740,10 @@
 
     $(".slider-banner-block__wrapper .btn-next").on("click", function() {
       sliderBanner.slick("next");
+      $(".slider-banner-block__wrapper .btn-prev").show()
+    });
+    $(".slider-banner-block__wrapper .btn-prev").on("click", function() {
+      sliderBanner.slick("prev");
     });
   });
   </script>
