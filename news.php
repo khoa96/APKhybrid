@@ -33,48 +33,50 @@
       <div class="common-layout__wrapper">
         <!-- LEFT SIDEBAR START  -->
         <div class="common-layout__left">
-          <div class="list-news__wrapper">
-            <a href="#" target="" title="" class="common-news-item">
-              <div class="common-news-item__image-wrapper">
-                <img src="./images/news-1.png" class="common-news-item__image" alt="">
-              </div>
-              <div class="common-news-item__info-wrapper">
-                <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 Update: New Character </h3>
-                <p class="common-news-item__description">
-                  Rediscover Fear with Reverse: 1999's Latest Update Featuring Tooth
-                </p>
-              </div>
-            </a>
-            <a href="#" target="" title="" class="common-news-item">
-              <div class="common-news-item__image-wrapper">
-                <img src="./images/news-2.png" class="common-news-item__image" alt="">
-              </div>
-              <div class="common-news-item__info-wrapper">
-                <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 Update: New Character Tooth Fairy,
-                  Thrilling Events, Rewards and More Rediscover Fear with Reverse 1999's Latest Update Featuring Tooth
-                  Fairy and More!</h3>
-                <p class="common-news-item__description">
-                  Rediscover Fear with Reverse: 1999's Latest Update Featuring Tooth Fairy and More! Rediscover Fear
-                  with Reverse: 1999's Latest Update Featuring Tooth Fairy and More!
-                </p>
-              </div>
-            </a>
-            <a href="#" target="" title="" class="common-news-item">
-              <div class="common-news-item__image-wrapper">
-                <img src="./images/news-3.png" class="common-news-item__image" alt="">
-              </div>
-              <div class="common-news-item__info-wrapper">
-                <h3 class="common-news-item__title">Rediscover Fear with Reverse 1999's Latest Update Featuring Tooth
-                  Fairy and More!</h3>
-                <p class="common-news-item__description">
-                  Rediscover Fear with Reverse: 1999's Latest Update Featuring Tooth Fairy and More! Rediscover Fear
-                  with Reverse: 1999's Latest Update Featuring Tooth Fairy and More!
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="common-center-layout">
-            <button class="btn-see-more">Show more</button>
+          <div class="common-layout__left-content">
+            <div class="list-news__wrapper">
+              <a href="#" target="" title="" class="common-news-item">
+                <div class="common-news-item__image-wrapper">
+                  <img src="./images/news-1.png" class="common-news-item__image" alt="">
+                </div>
+                <div class="common-news-item__info-wrapper">
+                  <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 Update: New Character </h3>
+                  <p class="common-news-item__description">
+                    Rediscover Fear with Reverse: 1999's Latest Update Featuring Tooth
+                  </p>
+                </div>
+              </a>
+              <a href="#" target="" title="" class="common-news-item">
+                <div class="common-news-item__image-wrapper">
+                  <img src="./images/news-2.png" class="common-news-item__image" alt="">
+                </div>
+                <div class="common-news-item__info-wrapper">
+                  <h3 class="common-news-item__title">Reverse: 1999 Version 1.2 Update: New Character Tooth Fairy,
+                    Thrilling Events, Rewards and More Rediscover Fear with Reverse 1999's Latest Update Featuring Tooth
+                    Fairy and More!</h3>
+                  <p class="common-news-item__description">
+                    Rediscover Fear with Reverse: 1999's Latest Update Featuring Tooth Fairy and More! Rediscover Fear
+                    with Reverse: 1999's Latest Update Featuring Tooth Fairy and More!
+                  </p>
+                </div>
+              </a>
+              <a href="#" target="" title="" class="common-news-item">
+                <div class="common-news-item__image-wrapper">
+                  <img src="./images/news-3.png" class="common-news-item__image" alt="">
+                </div>
+                <div class="common-news-item__info-wrapper">
+                  <h3 class="common-news-item__title">Rediscover Fear with Reverse 1999's Latest Update Featuring Tooth
+                    Fairy and More!</h3>
+                  <p class="common-news-item__description">
+                    Rediscover Fear with Reverse: 1999's Latest Update Featuring Tooth Fairy and More! Rediscover Fear
+                    with Reverse: 1999's Latest Update Featuring Tooth Fairy and More!
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="common-center-layout">
+              <button class="btn-see-more">Show more</button>
+            </div>
           </div>
         </div>
         <!-- LEFT SIDEBAR START  -->

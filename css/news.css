@@ -7,14 +7,11 @@
   }
 }
 .news-page__wrapper .common-layout__left {
-  padding: 24px;
-  background-color: #fff;
   border-radius: 20px;
   width: calc(100% - 392px - 24px);
 }
 @media only screen and (max-width: 991px) {
   .news-page__wrapper .common-layout__left {
-    padding: 16px;
     width: 100%;
   }
 }
@@ -24,7 +21,7 @@
   border-radius: 20px;
 }
 .news-page__wrapper .common-layout__left-content {
-  padding: 24px;
+  padding: 12px 24px 24px 24px;
   border-radius: 20px;
   max-height: fit-content;
   background-color: #fff;

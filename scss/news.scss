@@ -10,14 +10,9 @@
   }
 
   .common-layout__left {
-    padding: 24px;
-    background-color: #fff;
     border-radius: 20px;
     width: calc(100% - 392px - 24px);
-
-
     @include mq(max_md) {
-      padding: 16px;
       width: 100%;
     }
   }
@@ -29,7 +24,7 @@
   }
 
   .common-layout__left-content {
-    padding: 24px;
+    padding: 12px 24px 24px 24px;
     border-radius: 20px;
     max-height: fit-content;
     background-color: #fff;

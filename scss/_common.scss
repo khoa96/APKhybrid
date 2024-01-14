@@ -1382,6 +1382,10 @@ form {
       height: 100%;
       object-fit: cover;
       border-radius: 4px;
+
+      @include mq(max_md) {
+        border-radius: 8px;
+      }
     }
   }
 
