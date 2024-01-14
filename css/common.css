@@ -963,7 +963,7 @@ form {
   border: none;
   border-radius: 8px;
   background-color: #00af46;
-  min-width: 112px;
+  min-width: max-content;
 }
 .common-version-item .btn-download:focus {
   outline: none;
