@@ -627,7 +627,7 @@ form {
     margin-right: 16px;
   }
   .common-horizontal-app:nth-child(3n) {
-    margin-right: 16px;
+    margin-right: 0;
   }
 }
 .common-horizontal-app .w-72 {
@@ -720,7 +720,7 @@ form {
 }
 @media only screen and (max-width: 991px) {
   .common-flex-wrap-list {
-    min-width: 900px;
+    min-width: 880px;
   }
 }
 
@@ -741,6 +741,9 @@ form {
     min-width: 280px;
     max-width: 280px;
     margin-right: 16px;
+  }
+  .common-horizontal-hot-app:nth-child(3n) {
+    margin-right: 0;
   }
 }
 .common-horizontal-hot-app .btn-download {
@@ -877,12 +880,16 @@ form {
 
 .common-layout__wrapper {
   display: flex;
+  position: relative;
 }
 .common-layout__right {
   min-width: 288px;
   max-width: 288px;
   height: auto;
   margin-left: 24px;
+  position: sticky;
+  top: 0;
+  right: 0;
 }
 @media only screen and (max-width: 991px) {
   .common-layout__right {

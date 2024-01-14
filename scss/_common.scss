@@ -611,7 +611,7 @@ form {
     margin-right: 16px;
 
     &:nth-child(3n) {
-      margin-right: 16px;
+      margin-right: 0;
     }
   }
   .w-72 {
@@ -713,7 +713,7 @@ form {
   flex-wrap: wrap;
 
   @include mq(max_md) {
-    min-width: 900px;
+    min-width: 880px;
   }
 }
 
@@ -734,6 +734,10 @@ form {
     min-width: 280px;
     max-width: 280px;
     margin-right: 16px;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
   }
 
   .btn-download {
@@ -879,6 +883,7 @@ form {
 .common-layout {
   &__wrapper {
     display: flex;
+    position: relative;
   }
 
   &__right {
@@ -886,6 +891,9 @@ form {
     max-width: 288px;
     height: auto;
     margin-left: 24px;
+    position: sticky;
+    top: 0;
+    right: 0;
 
     @include mq(max_md) {
       display: none;

@@ -62,7 +62,7 @@
             <img src="./images/app-image-4.png" class="app-image" alt="">
             <div class="intro-detail-block__content">
               <div class="left-content">
-                <h2 class="main-title">Free Fire MAX</h2>
+                <h2 class="main-title">Free Fire MAX Role Playing Call of Duty Mobile Season </h2>
                 <div class="line-item">
                   <div class="item-info">
                     <img src="./images/icon-star.png" class="icon" alt="">
