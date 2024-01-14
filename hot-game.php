@@ -232,7 +232,7 @@
         </div>
 
         <div class="common-center-layout">
-          <button class="btn-see-more">See more</button>
+          <button class="btn-see-more">Show more</button>
         </div>
       </div>
       <!-- MAIN CONTENT HOT GAME PAGE START -->
