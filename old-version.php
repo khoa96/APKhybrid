@@ -341,7 +341,6 @@
         <!-- LEFT SIDEBAR START  -->
         <!-- RIGHT SIDEBAR START -->
         <div class=" common-layout__right">
-
           <div class="common-right-sidebar__freeze-scroll">
             <h3 class="common-right-sidebar__title common-medium__title">Similar</h3>
             <div class="common-right-sidebar__content common-scroll-bar max-660">
