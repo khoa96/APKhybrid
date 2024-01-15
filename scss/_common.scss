@@ -912,9 +912,8 @@ form {
     max-width: 288px;
     height: auto;
     margin-left: 24px;
-    position: sticky;
-    top: 0;
-    right: 0;
+    max-height: fit-content;
+
 
     @include mq(max_md) {
       display: none;

@@ -17,6 +17,11 @@
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/detail.css" />
   <link rel="stylesheet" type="text/css" href="css/news.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-js/1.3.0/sticky.min.js"
+    integrity="sha512-3z3zGiu0PabNyuTAAfznBJFpOg4owG9oQQasE5BwiiH5BBwrAjbfgIe0RCdtHJ0BQV1YF2Shgokbz2NziLnkuQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
   <!-- WARNING: Respond.js doesn't work if you view the page via file://-->

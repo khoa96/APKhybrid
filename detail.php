@@ -611,7 +611,7 @@
         </div>
         <!-- LEFT SIDEBAR START  -->
         <!-- RIGHT SIDEBAR START -->
-        <div class=" common-layout__right">
+        <div class="common-layout__right">
           <div class="common-right-sidebar-block__wrapper">
             <h3 class="common-right-sidebar-block__title common-medium__title">App support</h3>
             <div class="common-right-sidebar-block__content">
