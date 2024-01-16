@@ -12,8 +12,4 @@ $(document).ready(function () {
     $(this).toggleClass("active");
     $(".menu-for-mb-only").toggleClass("active");
   });
-
-  $.stickysidebarscroll(".common-layout__right", {
-    offset: { top: 80, bottom: 500 },
-  });
 });
